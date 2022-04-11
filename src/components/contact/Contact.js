@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { FaPhoneAlt } from "react-icons/fa";
+import CV from "../../assets/Curriculum/CV_christianlazo.pdf";
 
 const Contact = () => {
   return (
@@ -13,6 +14,13 @@ const Contact = () => {
           <p className="contact__left__connect">
             Start by <span>saying hi</span>{" "}
           </p>
+          <a
+            href={CV}
+            download="CV_Christian_Lazo"
+            className="contact__left__cv"
+          >
+            👉🏾Download Curriculum V.
+          </a>
         </div>
         <div className="contact__right">
           <p className="contact__right__title">Information</p>

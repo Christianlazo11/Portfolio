@@ -14,6 +14,12 @@
 .contact__left__connect {
     font-size: 35px;
     padding-top: 50px;
+    margin-bottom: 3rem;
+}
+.contact__left__cv{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #64f4ae;
 }
 .contact__left__connect > span {
     color: #64f4ae;
