@@ -15,10 +15,22 @@ const Footer = () => {
         <p className="footer__copyright">&copy; All Rights Reserved</p>
         <div className="footer__socials">
           <div className="footer__socials_icons">
-            <FaLinkedin />
+            <a
+              href="https://www.linkedin.com/in/christian-lazo-649531206/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin />
+            </a>
           </div>
           <div className="footer__socials_icons">
-            <FaGithub />
+            <a
+              href="https://github.com/christianlazo2020"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
           </div>
         </div>
       </div>

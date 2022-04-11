@@ -46,10 +46,22 @@ const Navbar = () => {
         </div>
         <div className="navbar__socials">
           <div className="navbar__github">
-            <FaGithub color="blue" className="navbar__item" />
+            <a
+              href="https://github.com/christianlazo2020"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub color="blue" className="navbar__item" />
+            </a>
           </div>
           <div className="navbar__linkedin">
-            <FaLinkedin className="navbar__item" />
+            <a
+              href="https://www.linkedin.com/in/christian-lazo-649531206/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin className="navbar__item" />
+            </a>
           </div>
           <div className="navbar__email">
             <MdEmail className="navbar__item" />
