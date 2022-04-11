@@ -1,0 +1,93 @@
+.Contact {
+    width: 100%;
+    background: #25262a;
+    padding:100px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+.contact__container {
+    display:flex;
+    justify-content:space-between;
+}
+.contact__left__desc {
+    font-size: 35px;
+}
+.contact__left__connect {
+    font-size: 35px;
+    padding-top: 50px;
+}
+.contact__left__connect > span {
+    color: #64f4ae;
+    border-bottom: 2px solid #64f4ae;
+}
+.contact__right__title {
+    color: #9797a1;
+    padding-bottom: 30px;
+}
+.contact__right__address {
+    color: #9797a1;
+    font-size: 25px;
+}
+.contact__right__email {
+    font-size: 45px;
+    padding: 20px 0 40px 0;
+}
+.contact__right__phone {
+    font-size: 35px;
+}
+.contact__right__phone .icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.contact__right__phone .icon:hover {
+    fill: #64f4ae;
+}
+.contact__right__ul {
+    list-style: none;
+}
+.contact__right__links {
+    margin-top: 20px;
+    cursor: pointer;
+}
+.contact__right__links > a {
+    text-decoration: none;
+}
+.contact__right__links > a:hover {
+    color: #64f4ae;
+}
+.contact__right__links:hover {
+    color: #64f4ae;
+}
+@media (max-width: 1024px ) {
+    .Contact {
+        padding: 100px 30px;
+    }
+    .contact__right__email {
+        font-size: 25px;
+        padding: 20px 0px 40px 0px;
+    }
+    .contact__right__phone {
+        font-size: 25px;
+    }
+}
+@media (max-width: 460px) {
+    .Contact {
+        padding: 50px 20px;
+    }
+    .contact__container {
+        flex-direction: column;
+    }
+    .contact__left__connect {
+        font-size: 30px;
+    }
+    .contact__right__address {
+        font-size: 20px;
+    }
+    .contact__right__email {
+        font-size: 25px;
+        padding: 20px 0px 40px 0px;
+    }
+    .contact__right__phone {
+        font-size: 25px;
+    }
+}

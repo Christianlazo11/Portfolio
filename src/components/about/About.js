@@ -23,18 +23,18 @@ const About = () => {
               <p className="card__title">Front End</p>
               <FaFeatherAlt className="card__icon" />
             </div>
-            <p className="card__desc">
-              I develop front-end with coding super smooth
-            </p>
+            <p className="card__desc">I develop front-end with clean code</p>
             <p className="card__link">10 Projects</p>
           </div>
           {/* card */}
           <div className="about__card">
             <div className="card__top">
-              <p className="card__title">Seo</p>
+              <p className="card__title">Back End</p>
               <FaCubes className="card__icon" />
             </div>
-            <p className="card__desc">Boost your business with SEO optimizer</p>
+            <p className="card__desc">
+              I develop complete applications with good practices
+            </p>
             <p className="card__link">10 Projects</p>
           </div>
         </div>
