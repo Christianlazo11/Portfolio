@@ -39,8 +39,8 @@ const Home = () => {
         <div className="home__miniInfo">
           <p className="info__number">3</p>
           <p className="info__desc">Months Experience Freelancer</p>
-          <p className="info__number">10</p>
-          <p className="info__desc">Projects Complete in different countries</p>
+          {/* <p className="info__number">10</p>
+          <p className="info__desc">Projects Complete in different countries</p> */}
         </div>
       </div>
     </div>

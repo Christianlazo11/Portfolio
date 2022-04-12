@@ -16,8 +16,7 @@ export const dataProjects = [
   {
     linkDemo: "https://escuelademusica2022.netlify.app/",
     linkGithub: "https://github.com/christianlazo2020/EscuelaDeMusica.git",
-    img:
-      "https://i.postimg.cc/fLJScxgJ/escuelademusica2022-netlify-app-Desktop.png",
+    img: "https://i.postimg.cc/wMJyf2p5/localhost-5500-Desktop.png",
     description: "Hi everyone xD",
     projectName: "Escuela de musica",
   },
