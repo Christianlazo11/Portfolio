@@ -1,4 +1,4 @@
-##Christian Lazo's Portfolio
+# Christian Lazo's Portfolio
 
 **What is the purpose of having an online portfolio? **
 
