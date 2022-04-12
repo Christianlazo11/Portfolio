@@ -1,3 +1,5 @@
+##Christian Lazo's Portfolio
+
 **What is the purpose of having an online portfolio? **
 
 It only takes a few seconds to lose a visitor's attention, so make sure you use these seconds wisely. Your potential clients and/or the company that is looking to hire you will see the design first and if they like what they see, they will keep looking to find more details. In other words, you need a striking and attractive presentation of your work.
