@@ -2,6 +2,19 @@ import React from "react";
 import "./projects.css";
 import { dataProjects } from "../../data/dataProjects";
 import { FaGithubAlt, FaWifi } from "react-icons/fa";
+import { Icon } from "@iconify/react";
+const icons = {
+  html: <Icon icon="vscode-icons:file-type-html" />,
+  css: <Icon icon="vscode-icons:file-type-css" />,
+  javascript: <Icon icon="logos:javascript" />,
+  git: <Icon icon="logos:git-icon" />,
+  react: <Icon icon="logos:react" />,
+  angular: <Icon icon="logos:angular-icon" />,
+  node: <Icon icon="vscode-icons:file-type-node" />,
+  mongo: <Icon icon="logos:mongodb" />,
+  bootstrap: <Icon icon="logos:bootstrap" />,
+  sass: <Icon icon="vscode-icons:file-type-sass" />,
+};
 
 const Projects = () => {
   return (
@@ -19,6 +32,7 @@ const Projects = () => {
               <div className="projects__right__box__content">
                 <span className="projects__right__box__span">
                   {item.projectName}
+                  {item.technologies.map((item) => icons[item])}
                 </span>
                 <div className="projects__right__box__buttons">
                   <a

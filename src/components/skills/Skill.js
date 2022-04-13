@@ -9,7 +9,7 @@ const Skill = () => {
       <div className="skills__container">
         {dataSkills.map((item, index) => (
           <div className="skills__item" key={index}>
-            <img src={item.img} alt={item.skillName} />
+            {item.img}
             <h3>{item.skillName}</h3>
           </div>
         ))}

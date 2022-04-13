@@ -39,6 +39,9 @@
 }
 .projects__right__box__span {
     text-transform: capitalize;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.4rem;
 }
 .projects__right__box:hover  .projects__right__box__content{
     transform: translateY(0);
