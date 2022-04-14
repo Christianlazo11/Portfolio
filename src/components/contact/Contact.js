@@ -2,11 +2,19 @@ import React from "react";
 import "./contact.css";
 import { FaPhoneAlt } from "react-icons/fa";
 import CV from "../../assets/Curriculum/CV_christianlazo.pdf";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  AOS.init();
   return (
     <div className="Contact" id="contact">
-      <div className="contact__container">
+      <div
+        className="contact__container"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-once="false"
+      >
         <div className="contact__left">
           <p className="contact__left__desc">
             Let's make something amazing together

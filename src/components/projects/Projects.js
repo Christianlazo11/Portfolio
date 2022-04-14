@@ -3,6 +3,8 @@ import "./projects.css";
 import { dataProjects } from "../../data/dataProjects";
 import { FaGithubAlt, FaWifi } from "react-icons/fa";
 import { Icon } from "@iconify/react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const icons = {
   html: <Icon icon="vscode-icons:file-type-html" />,
   css: <Icon icon="vscode-icons:file-type-css" />,
@@ -17,13 +19,20 @@ const icons = {
 };
 
 const Projects = () => {
+  AOS.init();
   return (
     <div className="Projects" id="projects">
       <div className="projects__container">
         <button className="projects__btn">All Projects</button>
         <div className="projects__right">
           {dataProjects.map((item, index) => (
-            <div className="projects__right__box" key={index}>
+            <div
+              className="projects__right__box"
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-once="false"
+              key={index}
+            >
               <img
                 src={item.img}
                 className="projects__img"
