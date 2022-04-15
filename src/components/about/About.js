@@ -15,6 +15,7 @@ const About = () => {
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-once="false"
+            data-aos-easing="ease-in-cubic"
           >
             <div className="card__top">
               <p className="card__title">Desing</p>
@@ -31,6 +32,7 @@ const About = () => {
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-once="false"
+            data-aos-easing="ease-in-cubic"
           >
             <div className="card__top">
               <p className="card__title">Front End</p>
@@ -45,6 +47,7 @@ const About = () => {
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-once="false"
+            data-aos-easing="ease-in-cubic"
           >
             <div className="card__top">
               <p className="card__title">Back End</p>

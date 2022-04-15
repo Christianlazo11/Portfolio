@@ -14,6 +14,7 @@ const Contact = () => {
         data-aos="fade-up"
         data-aos-offset="200"
         data-aos-once="false"
+        data-aos-easing="ease-in-cubic"
       >
         <div className="contact__left">
           <p className="contact__left__desc">

@@ -13,9 +13,10 @@ const Skill = () => {
         {dataSkills.map((item, index) => (
           <div
             className="skills__item"
-            data-aos="fade-up"
+            data-aos="zoom-in-up"
             data-aos-offset="200"
             data-aos-once="false"
+            data-aos-easing="ease-in-cubic"
             key={index}
           >
             {item.img}

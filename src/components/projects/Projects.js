@@ -28,9 +28,10 @@ const Projects = () => {
           {dataProjects.map((item, index) => (
             <div
               className="projects__right__box"
-              data-aos="fade-up"
+              data-aos="zoom-in-up"
               data-aos-offset="200"
               data-aos-once="false"
+              data-aos-easing="ease-in-out-quart"
               key={index}
             >
               <img
