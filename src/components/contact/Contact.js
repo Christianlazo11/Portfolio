@@ -23,13 +23,24 @@ const Contact = () => {
           <p className="contact__left__connect">
             Start by <span>saying hi</span>{" "}
           </p>
-          <a
-            href={CV}
-            download="CV_Christian_Lazo"
-            className="contact__left__cv"
-          >
-            👉🏾Download Curriculum V.
-          </a>
+          <div className="contact__left__links">
+            <a
+              href={CV}
+              download="CV_Christian_Lazo"
+              className="contact__left__cv"
+            >
+              👉🏾Download Curriculum V.
+            </a>
+            <a
+              href="https://drive.google.com/file/d/1BWxCvz0oukcMyJu77xUzzO_v6x1yFhvi/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              download="CV_Christian_Lazo"
+              className="contact__left__cv"
+            >
+              🔎View Curriculum V.
+            </a>
+          </div>
         </div>
         <div className="contact__right">
           <p className="contact__right__title">Information</p>

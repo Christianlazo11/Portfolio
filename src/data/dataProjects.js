@@ -6,6 +6,7 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "replica-web",
     technologies: ["html", "css", "javascript", "git"],
+    id: 1,
   },
   {
     linkDemo: "https://covimap2022.netlify.app/",
@@ -14,6 +15,7 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "covimap",
     technologies: ["html", "sass", "javascript", "git"],
+    id: 2,
   },
   {
     linkDemo: "https://escuelademusica2022.netlify.app/",
@@ -22,6 +24,7 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "Escuela de musica",
     technologies: ["html", "sass", "javascript", "git"],
+    id: 3,
   },
   {
     linkDemo: "https://todolist2050.netlify.app/",
@@ -31,6 +34,7 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "todolist",
     technologies: ["git", "react", "node", "mongo", "bootstrap"],
+    id: 4,
   },
   {
     linkDemo: "https://crud-citas.vercel.app/",
@@ -39,6 +43,7 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "app-citas",
     technologies: ["git", "react", "node", "mongo", "bootstrap"],
+    id: 5,
   },
   {
     linkDemo: "https://apisearchmovies.netlify.app/",
@@ -47,15 +52,16 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "movie-search",
     technologies: ["git", "react", "bootstrap"],
+    id: 6,
   },
   {
     linkDemo: "https://wikimarvelheroes.netlify.app/",
     linkGithub: "https://github.com/christianlazo2020/WikiHeroeMarvel.git",
-    img:
-      "https://i.postimg.cc/Jzh7RQJs/wikimarvelheroes-netlify-app-Desktop.png",
+    img: "https://i.postimg.cc/wj59pF6s/wikimarvelheroes.png",
     description: "Hi everyone xD",
     projectName: "wiki-marvel",
     technologies: ["git", "react", "bootstrap"],
+    id: 7,
   },
   {
     linkDemo: "https://riackandmortyapp2021.netlify.app/",
@@ -65,6 +71,7 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "rick&morty",
     technologies: ["git", "react", "bootstrap"],
+    id: 8,
   },
   {
     linkDemo: "https://reactweatherapp2050.netlify.app/",
@@ -74,6 +81,7 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "weather-app",
     technologies: ["git", "react", "bootstrap"],
+    id: 9,
   },
   {
     linkDemo: "https://reactrandomquotes2050.netlify.app/",
@@ -83,6 +91,7 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "random-quotes",
     technologies: ["git", "react", "bootstrap"],
+    id: 10,
   },
   {
     linkDemo: "https://landingpagefitness.netlify.app/",
@@ -92,6 +101,7 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "landing-fitness",
     technologies: ["html", "css", "javascript", "git"],
+    id: 11,
   },
   {
     linkDemo: "https://landingpageburger.netlify.app/",
@@ -101,5 +111,6 @@ export const dataProjects = [
     description: "Hi everyone xD",
     projectName: "landing-burger",
     technologies: ["html", "css", "javascript", "git"],
+    id: 12,
   },
 ];

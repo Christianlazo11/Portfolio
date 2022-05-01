@@ -25,14 +25,14 @@ const Projects = () => {
       <div className="projects__container">
         <button className="projects__btn">All Projects</button>
         <div className="projects__right">
-          {dataProjects.map((item, index) => (
+          {dataProjects.map((item) => (
             <div
               className="projects__right__box"
               data-aos="zoom-in-up"
               data-aos-offset="200"
               data-aos-once="false"
               data-aos-easing="ease-in-out-quart"
-              key={index}
+              key={item.id}
             >
               <img
                 src={item.img}
@@ -42,7 +42,9 @@ const Projects = () => {
               <div className="projects__right__box__content">
                 <span className="projects__right__box__span">
                   {item.projectName}
-                  {item.technologies.map((item) => icons[item])}
+                  {item.technologies.map((item, index) => (
+                    <div key={index}>{icons[item]}</div>
+                  ))}
                 </span>
                 <div className="projects__right__box__buttons">
                   <a

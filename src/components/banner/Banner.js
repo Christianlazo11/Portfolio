@@ -10,7 +10,7 @@ const Home = () => {
     <div className="Home" id="home">
       <div className="home__container">
         <div className="home__left">
-          <p className="home__left__subtitle">Full Stack Developer</p>
+          <p className="home__left__subtitle">Front End Developer</p>
           <div className="home__left__title">
             <p>Talk is cheap.</p>
             <p>Show me the code</p>

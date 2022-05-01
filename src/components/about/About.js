@@ -42,22 +42,6 @@ const About = () => {
             <p className="card__link">10 Projects</p>
           </div>
           {/* card */}
-          <div
-            className="about__card"
-            data-aos="fade-up"
-            data-aos-offset="200"
-            data-aos-once="false"
-            data-aos-easing="ease-in-cubic"
-          >
-            <div className="card__top">
-              <p className="card__title">Back End</p>
-              <FaCubes className="card__icon" />
-            </div>
-            <p className="card__desc">
-              I develop complete applications with good practices
-            </p>
-            <p className="card__link">10 Projects</p>
-          </div>
         </div>
       </div>
 
