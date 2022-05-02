@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import { FaFeatherAlt, FaCode, FaCubes } from "react-icons/fa";
+import { FaFeatherAlt, FaCode } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
