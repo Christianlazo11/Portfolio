@@ -1,14 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import "./home.css";
 import imageReact from "../../assets/img/react-image.png";
 import imageNode from "../../assets/img/node-image.png";
 import imageJs from "../../assets/img/javascript-image.png";
 import avatar from "../../assets/img/AvatarMaker.svg";
+import Loader from "../loader/Loader";
+import AOS from "aos";
 
 const Home = () => {
-  return (
+  AOS.init();
+
+  const [load, setLoad] = useState(true);
+
+  setTimeout(() => {
+    setLoad(false);
+  }, 2000);
+  return load ? (
+    <Loader />
+  ) : (
     <div className="Home" id="home">
-      <div className="home__container">
+      <div
+        className="home__container"
+        data-aos="zoom-in"
+        data-aos-offset="200"
+        data-aos-once="false"
+        data-aos-easing="ease-in"
+      >
         <div className="home__left">
           <p className="home__left__subtitle">Front End Developer</p>
           <div className="home__left__title">

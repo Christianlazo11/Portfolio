@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { MdEmail } from "react-icons/md";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+  FaLinkedin,
+  FaIdBadge,
+} from "react-icons/fa";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -21,7 +28,9 @@ const Navbar = () => {
     <div className="navbar container">
       <nav>
         <div className="logo">
-          <span className="logo__span">Christian Lazo</span>
+          <Link to="/" className="logo__span">
+            Christian Lazo
+          </Link>
         </div>
         {(toggleMenu || screenWidth > 1024) && (
           <ul className="list">
@@ -45,18 +54,27 @@ const Navbar = () => {
           )}
         </div>
         <div className="navbar__socials">
+          <div className="navbar__cv">
+            <a
+              href="https://drive.google.com/file/d/1BWxCvz0oukcMyJu77xUzzO_v6x1yFhvi/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaIdBadge className="navbar__item" />
+            </a>
+          </div>
           <div className="navbar__github">
             <a
               href="https://github.com/christianlazo2020"
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub color="blue" className="navbar__item" />
+              <FaGithub className="navbar__item" />
             </a>
           </div>
           <div className="navbar__linkedin">
             <a
-              href="https://www.linkedin.com/in/christian-lazo-649531206/"
+              href="https://www.linkedin.com/in/christian-lazo-u/"
               target="_blank"
               rel="noreferrer"
             >
@@ -64,7 +82,9 @@ const Navbar = () => {
             </a>
           </div>
           <div className="navbar__email">
-            <MdEmail className="navbar__item" />
+            <Link to="/formcontact">
+              <MdEmail className="navbar__item" />
+            </Link>
           </div>
         </div>
       </nav>

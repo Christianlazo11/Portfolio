@@ -12,11 +12,11 @@ const Footer = () => {
             <span>Christian</span> Lazo
           </p>
         </div>
-        <p className="footer__copyright">&copy; All Rights Reserved</p>
+        <p className="footer__copyright">&copy; All Rights Reserved 2022</p>
         <div className="footer__socials">
           <div className="footer__socials_icons">
             <a
-              href="https://www.linkedin.com/in/christian-lazo-649531206/"
+              href="https://www.linkedin.com/in/christian-lazo-u/"
               target="_blank"
               rel="noreferrer"
             >

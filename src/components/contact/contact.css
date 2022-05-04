@@ -6,6 +6,7 @@
 }
 .contact__container {
     display:flex;
+    flex-direction: row;
     justify-content:space-between;
 }
 .contact__left__desc {
@@ -82,9 +83,20 @@
         font-size: 25px;
     }
 }
+@media (max-height: 700px) {
+    .contact__container {
+        flex-direction: column;
+    }
+}
 @media (max-width: 460px) {
     .Contact {
         padding: 50px 20px;
+    }
+    .contact__left__cv {
+        font-size: 1.3rem
+    }
+    .contact__left__links {
+        margin-bottom: 1rem;
     }
     .contact__container {
         flex-direction: column;
@@ -96,7 +108,7 @@
         font-size: 20px;
     }
     .contact__right__email {
-        font-size: 25px;
+        font-size: 20px;
         padding: 20px 0px 40px 0px;
     }
     .contact__right__phone {

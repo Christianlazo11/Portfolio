@@ -1,13 +1,10 @@
 import React from "react";
-import "./loader.css";
+import "./loader.scss";
 
 const Loader = () => {
   return (
-    <div class="spinner">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+    <div className="Loader">
+      <div className="Loader__content">Loading...</div>
     </div>
   );
 };

@@ -16,6 +16,7 @@ nav {
     display: flex;
     font-size: 30px;
     cursor: pointer;
+    
 }
 
 .logo__span:hover {
@@ -24,6 +25,7 @@ nav {
 
 .logo__span {
     font-weight: 500;
+    text-decoration: none;
 }
 
 .list {
@@ -71,7 +73,7 @@ nav {
     justify-content: space-between;
 }
 
-.navbar__github, .navbar__linkedin {
+.navbar__github, .navbar__linkedin, .navbar__cv {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +149,7 @@ nav {
         justify-content: unset;
     }
 
-    .navbar__github, .navbar__linkedin {
+    .navbar__github, .navbar__linkedin, .navbar__cv {
         display: none;
     }
 

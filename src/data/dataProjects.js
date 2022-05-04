@@ -1,5 +1,15 @@
 export const dataProjects = [
   {
+    linkDemo: "https://atomicfilms2022.netlify.app/",
+    linkGithub:
+      "https://github.com/christianlazo2020/React__AtomicFilms_MovieApp.git",
+    img: "https://i.postimg.cc/pTgDPD8m/atomicfilms2022-netlify-app-3.png",
+    description: "Hi everyone xD",
+    projectName: "AtomicFilms",
+    technologies: ["react", "sass", "git"],
+    id: 15,
+  },
+  {
     linkDemo: "https://mireplicaweb.netlify.app/",
     linkGithub: "https://github.com/christianlazo2020/myreplicaweb.git",
     img: "https://i.postimg.cc/4N9wRJ0M/mireplicaweb-netlify-app-Desktop.png",
@@ -112,5 +122,25 @@ export const dataProjects = [
     projectName: "landing-burger",
     technologies: ["html", "css", "javascript", "git"],
     id: 12,
+  },
+  {
+    linkDemo: "https://landingpagecoffee.netlify.app/",
+    linkGithub:
+      "https://github.com/christianlazo2020/Landing__Coffee__Shop.git",
+    img: "https://i.postimg.cc/xdF0J561/landingpagecoffee-netlify-app.png",
+    description: "Hi everyone xD",
+    projectName: "Landing-Coffee",
+    technologies: ["html", "css", "javascript", "git"],
+    id: 13,
+  },
+  {
+    linkDemo: "https://landingwatchstore.netlify.app/",
+    linkGithub:
+      "https://github.com/christianlazo2020/Landing__Watch__Store.git",
+    img: "https://i.postimg.cc/yNN18tXG/landingwatchstore-netlify-app.png",
+    description: "Hi everyone xD",
+    projectName: "Landing-WatchStore",
+    technologies: ["html", "css", "javascript", "git"],
+    id: 14,
   },
 ];

@@ -35,7 +35,6 @@ const Contact = () => {
               href="https://drive.google.com/file/d/1BWxCvz0oukcMyJu77xUzzO_v6x1yFhvi/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              download="CV_Christian_Lazo"
               className="contact__left__cv"
             >
               🔎View Curriculum V.

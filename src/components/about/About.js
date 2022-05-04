@@ -57,10 +57,9 @@ const About = () => {
           Every great design begin with an even better story
         </p>
         <p className="about__desc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia id
-          debitis laudantium, voluptates soluta placeat, impedit ipsum vitae
-          molestiae quaerat, aspernatur non ad nobis atque ullam! Doloremque et
-          officia reiciendis!
+          I like to create new things and solve problems, I am a very curious
+          person, I also like topics related to computer components, astronomy,
+          my favorite sport is soccer, I also like boxing and rap battles.
         </p>
       </div>
     </div>
