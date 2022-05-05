@@ -47,8 +47,10 @@
 
 .sendemail__form__group__button {
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
+    gap: 1rem;
 }
 
 .sendemail__form__group__button button {
@@ -65,4 +67,10 @@
 .sendemail__form__group__button button:hover {
     background-color: #64f4ac;
     color: #444;
+}
+
+.sendemail__form__error {
+    padding-top: 0.2rem;
+    font-size: 0.8rem;
+    color: #64f4ac;
 }

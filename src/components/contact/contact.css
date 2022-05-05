@@ -28,9 +28,10 @@
     font-size: 2rem;
     color: #64f4ae;
 }
-.contact__left__connect > span {
+.contact__left__connect > span a {
     color: #64f4ae;
     border-bottom: 2px solid #64f4ae;
+    text-decoration: none;
 }
 .contact__right__title {
     color: #9797a1;

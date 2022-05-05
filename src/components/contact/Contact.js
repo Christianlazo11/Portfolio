@@ -4,6 +4,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import CV from "../../assets/Curriculum/CV_christianlazo.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   AOS.init();
@@ -21,7 +22,11 @@ const Contact = () => {
             Let's make something amazing together
           </p>
           <p className="contact__left__connect">
-            Start by <span>saying hi</span>{" "}
+            Start by{" "}
+            <span>
+              {" "}
+              <Link to="/formcontact">saying hi</Link>
+            </span>{" "}
           </p>
           <div className="contact__left__links">
             <a
@@ -29,7 +34,7 @@ const Contact = () => {
               download="CV_Christian_Lazo"
               className="contact__left__cv"
             >
-              👉🏾Download Curriculum V.
+              👉🏾Download Resume.
             </a>
             <a
               href="https://drive.google.com/file/d/1BWxCvz0oukcMyJu77xUzzO_v6x1yFhvi/view?usp=sharing"
@@ -37,7 +42,7 @@ const Contact = () => {
               rel="noreferrer"
               className="contact__left__cv"
             >
-              🔎View Curriculum V.
+              🔎View Resume.
             </a>
           </div>
         </div>

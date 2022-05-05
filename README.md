@@ -15,12 +15,15 @@ It only takes a few seconds to lose a visitor's attention, so make sure you use 
 - Css
 - Html
 - JavaScript
+
+## Libraries
+
 - React
-
-## Modules
-
 - React-router-dom
 - React-icons
+- Formik
+- Sass
+- AOS
 
 ## Installation
 

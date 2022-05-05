@@ -31,6 +31,10 @@
     background-color: #64f4ac;
 }
 
+.home__left__subtitle:hover {
+    transform: rotate(5deg);
+}
+
 .home__left__title {
     font-size: 50px;
     display: flex;

@@ -51,15 +51,13 @@ const About = () => {
         data-aos-offset="200"
         data-aos-once="false"
       >
-        <p className="about__subtitle">Introduce</p>
         <p className="about__subtitle">Hello! I'm Christian Lazo</p>
         <p className="about__info">
           Every great design begin with an even better story
         </p>
         <p className="about__desc">
-          I like to create new things and solve problems, I am a very curious
-          person, I also like topics related to computer components, astronomy,
-          my favorite sport is soccer, I also like boxing and rap battles.
+          I like to create new things and solving problems in the easiest way
+          and I also like watching boxing and rap battles.
         </p>
       </div>
     </div>
