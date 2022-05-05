@@ -29,8 +29,8 @@ It only takes a few seconds to lose a visitor's attention, so make sure you use 
 
 ## Deploy
 
-- https://christianlazoporfolio.netlify.app/
+- https://christianlazoportfolio.netlify.app/
 
 ## Linkedin
 
-- https://www.linkedin.com/in/christian-lazo-649531206/
+- https://www.linkedin.com/in/christian-lazo-u/
