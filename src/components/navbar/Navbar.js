@@ -56,7 +56,7 @@ const Navbar = () => {
         <div className="navbar__socials">
           <div className="navbar__cv">
             <a
-              href="https://drive.google.com/file/d/1BWxCvz0oukcMyJu77xUzzO_v6x1yFhvi/view?usp=sharing"
+              href="https://drive.google.com/file/d/1weFoYOGKDUeMQSCtxdkifM7dGXUKouWU/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
