@@ -1,0 +1,70 @@
+.overlay {
+    width: 99vw;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.overlay__container {
+    width: 350px;
+    min-height: 100px;
+    background: #444;
+    position:relative;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+
+.overlay__modal__top {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E8E8E8;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.overlay__container h3{
+    color: #64f4ac;
+}
+
+.overlay__container button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    transition: .3s ease all;
+    border-radius: 5px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.overlay__container button:hover {
+    background: #2d2e31;
+}
+
+.overlay__container button .close {
+    fill: #64f4ac;
+    transform: rotate(45deg);
+    font-size: 1rem;
+}
+
+.overlay__modal__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.5rem;
+}
+.overlay__modal__content p{
+    font-size: 1.5rem;
+}

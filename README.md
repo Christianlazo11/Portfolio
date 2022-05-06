@@ -24,6 +24,7 @@ It only takes a few seconds to lose a visitor's attention, so make sure you use 
 - Formik
 - Sass
 - AOS
+- EmailJs
 
 ## Installation
 

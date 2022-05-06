@@ -34,6 +34,19 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: myAnim 0.5s linear 0s 1 normal none;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 .links > a {
@@ -57,7 +70,9 @@ nav {
     right: 20px;
     top: 45px;
     font-size: 1.5rem;
+    
 }
+
 
 .menuIcons:hover {
     opacity: 0.8;

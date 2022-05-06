@@ -84,7 +84,7 @@
         font-size: 25px;
     }
 }
-@media (max-height: 700px) {
+@media( max-width: 768px) {
     .contact__container {
         flex-direction: column;
     }
@@ -99,9 +99,7 @@
     .contact__left__links {
         margin-bottom: 1rem;
     }
-    .contact__container {
-        flex-direction: column;
-    }
+
     .contact__left__connect {
         font-size: 30px;
     }

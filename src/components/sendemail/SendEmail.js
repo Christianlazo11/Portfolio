@@ -1,13 +1,34 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./sendemail.css";
 import Loader from "../loader/Loader";
 import AOS from "aos";
 import { Formik, Form, Field, ErrorMessage } from "formik";
+import Modal from "../modal/Modal";
+import emailjs from "@emailjs/browser";
 
 const SendEmail = () => {
   AOS.init();
   const [load, setLoad] = useState(true);
-  const [isSendForm, setIsSendForm] = useState(false);
+  const [isModal, setIsModal] = useState(false);
+  const form = useRef();
+
+  const sendEmail = () => {
+    emailjs
+      .sendForm(
+        "service_zpxwa1h",
+        "template_fx0ff2h",
+        form.current,
+        "KWav6B5QmBymefyPU"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   setTimeout(() => {
     setLoad(false);
@@ -53,14 +74,12 @@ const SendEmail = () => {
         }}
         onSubmit={(valores, { resetForm }) => {
           resetForm();
-          setIsSendForm(true);
-          setTimeout(() => {
-            setIsSendForm(false);
-          }, 2000);
+          sendEmail();
+          setIsModal(!isModal);
         }}
       >
         {({ errors }) => (
-          <Form className="sendemail__form">
+          <Form ref={form} className="sendemail__form">
             <div className="sendemail__form__group">
               <label htmlFor="name">Name</label>
               <Field
@@ -112,11 +131,16 @@ const SendEmail = () => {
 
             <div className="sendemail__form__group__button">
               <button type="submit">Send</button>
-              {isSendForm && <div>Formulario Enviado Exitosamente</div>}
             </div>
           </Form>
         )}
       </Formik>
+      {isModal && (
+        <Modal handleModal={setIsModal} handleHeader={false}>
+          <h3>Success</h3>
+          <p>I will contact you soon 😄</p>
+        </Modal>
+      )}
     </div>
   );
 };
