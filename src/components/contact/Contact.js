@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { FaPhoneAlt } from "react-icons/fa";
-import CV from "../../assets/Curriculum/CV_christianlazo.pdf";
+import resume from "../../assets/Curriculum/Resume__English.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
@@ -30,14 +30,14 @@ const Contact = () => {
           </p>
           <div className="contact__left__links">
             <a
-              href={CV}
-              download="CV_Christian_Lazo"
+              href={resume}
+              download="Resume_Christian_Lazo"
               className="contact__left__cv"
             >
               👉🏾Download Resume.
             </a>
             <a
-              href="https://drive.google.com/file/d/1BWxCvz0oukcMyJu77xUzzO_v6x1yFhvi/view?usp=sharing"
+              href="https://drive.google.com/file/d/13PWXE-K9GH-W50LxFTm1L6egYsZLHTPQ/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="contact__left__cv"
