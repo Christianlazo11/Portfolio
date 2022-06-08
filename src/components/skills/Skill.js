@@ -3,12 +3,15 @@ import "./skill.css";
 import { dataSkills } from "../../data/dataSkills";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import useGlobalData from "../../hooks/useGlobalData";
 
 const Skill = () => {
   AOS.init();
+  const { globalData, language } = useGlobalData();
+
   return (
     <div className="Skills" id="#skills">
-      <h2>Skills</h2>
+      <h2>{globalData[language].skillsTitle}</h2>
       <div className="skills__container">
         {dataSkills.map((item, index) => (
           <div

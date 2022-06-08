@@ -5,6 +5,7 @@ import { FaGithubAlt, FaWifi } from "react-icons/fa";
 import { Icon } from "@iconify/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import useGlobalData from "../../hooks/useGlobalData";
 const icons = {
   html: <Icon icon="vscode-icons:file-type-html" />,
   css: <Icon icon="vscode-icons:file-type-css" />,
@@ -20,10 +21,14 @@ const icons = {
 
 const Projects = () => {
   AOS.init();
+  const { globalData, language } = useGlobalData();
+
   return (
     <div className="Projects" id="projects">
       <div className="projects__container">
-        <button className="projects__btn">All Projects</button>
+        <button className="projects__btn">
+          {globalData[language].projectsTitle}
+        </button>
         <div className="projects__right">
           {dataProjects.map((item) => (
             <div

@@ -86,11 +86,22 @@
     justify-content: space-between;
 }
 
-.navbar__github, .navbar__linkedin, .navbar__cv {
+.navbar__github, .navbar__linkedin{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 1rem;
+}
+
+.navbar__language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.navbar__language * {
+    font-size: 1.4rem;
 }
 
 

@@ -2,19 +2,14 @@ import React, { useState, useEffect } from "react";
 import "./navbar.css";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-  FaIdBadge,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { GrLanguage } from "react-icons/gr";
 import useGlobalData from "../../hooks/useGlobalData";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const { globalData, language } = useGlobalData();
+  const { globalData, language, setLanguage } = useGlobalData();
 
   useEffect(() => {
     const changeWidth = () => {
@@ -56,14 +51,14 @@ const Navbar = () => {
           )}
         </div>
         <div className="navbar__socials">
-          <div className="navbar__cv">
-            <a
-              href="https://drive.google.com/file/d/13PWXE-K9GH-W50LxFTm1L6egYsZLHTPQ/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
+          <div className="navbar__language">
+            <button
+              onClick={() => {
+                setLanguage(language === "english" ? "spanish" : "english");
+              }}
             >
-              <FaIdBadge className="navbar__item" />
-            </a>
+              <GrLanguage />
+            </button>
           </div>
           <div className="navbar__github">
             <a
