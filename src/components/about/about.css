@@ -1,6 +1,6 @@
 .About {
     width: 100%;
-    background: #25262a;
+    background: var(--color__dark__01);
     padding: 150px;
     display: flex;
     gap: 5rem;
@@ -22,14 +22,14 @@ textarea {
 .about__card {
     padding: 50px 70px;
     border-radius: 10px;
-    background: #2d2e31;
+    background: var(--color__dark__02);
     filter: drop-shadow(10px 0 20px black);
 }
 .about__card:hover {
     filter: drop-shadow(0 0 2px black);
 }
 .about__card:hover .card__title {
-    color: #63f0a9;
+    color: var(--color__primary);
 }
 .card__top {
     display:flex;
@@ -41,10 +41,10 @@ textarea {
 }
 .card__icon {
     font-size: 1.5rem;
-    fill: #63f0a9;
+    fill: var(--color__green__dark);
 }
 .card__desc {
-    color: #9797a1;
+    color: var(--color__gray__dark);
     padding: 10px 0px 30px 0px;
 }
 .card__link {
@@ -54,7 +54,7 @@ textarea {
     width: 50%;
 }
 .about__subtitle {
-    color: #9797a1;
+    color: var(--color__gray__dark);
     font-size: 22px;
 }
 .about__title {
@@ -67,7 +67,7 @@ textarea {
     padding-bottom: 30px;
 }
 .about__desc {
-    color: #9797a1;
+    color: var(--color__gray__dark);
     font-size: 22px;
     line-height: 35px;
 }

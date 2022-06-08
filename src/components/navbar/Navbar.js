@@ -26,7 +26,7 @@ const Navbar = () => {
   }, []);
   return (
     <div className="navbar container">
-      <nav>
+      <nav className="navbar__nav">
         <div className="logo">
           <Link to="/" className="logo__span">
             Christian Lazo

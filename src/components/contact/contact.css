@@ -1,6 +1,6 @@
 .Contact {
     width: 100%;
-    background: #25262a;
+    background: var(--color__dark__01);
     padding:100px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
@@ -26,19 +26,19 @@
 .contact__left__cv{
     text-decoration: none;
     font-size: 2rem;
-    color: #64f4ae;
+    color: var(--color__primary);
 }
 .contact__left__connect > span a {
-    color: #64f4ae;
-    border-bottom: 2px solid #64f4ae;
+    color: var(--color__primary);
+    border-bottom: 2px solid var(--color__primary);
     text-decoration: none;
 }
 .contact__right__title {
-    color: #9797a1;
+    color: var(--color__gray__dark);
     padding-bottom: 30px;
 }
 .contact__right__address {
-    color: #9797a1;
+    color: var(--color__gray__dark);
     font-size: 25px;
 }
 .contact__right__email {
@@ -54,7 +54,7 @@
     cursor: pointer;
 }
 .contact__right__phone .icon:hover {
-    fill: #64f4ae;
+    fill: var(--color__primary);
 }
 .contact__right__ul {
     list-style: none;
@@ -67,10 +67,10 @@
     text-decoration: none;
 }
 .contact__right__links > a:hover {
-    color: #64f4ae;
+    color: var(--color__primary);
 }
 .contact__right__links:hover {
-    color: #64f4ae;
+    color: var(--color__primary);
 }
 @media (max-width: 1024px ) {
     .Contact {

@@ -4,7 +4,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: #25262a;
+    background-color: var(--color__dark__01);
     padding: 2rem 0;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
@@ -14,7 +14,7 @@
     flex-direction: column;
     gap: 1rem;
     padding: 1rem 2rem;
-    background: #2d2e31;
+    background: var(--color__dark__02);
     filter: drop-shadow(10px 0 20px black);
     border-radius: 0.5rem;
 }
@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
 }
-.sendemail__form__group label {
+.sendemail__form__group__label {
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
@@ -31,13 +31,13 @@
 .sendemail__form__group input, textarea {
     display: block;
     width: 100%;
-    background-color: #e1e1e1;
+    background-color: var(--color__gray__light);
     border-radius: 2rem;
     outline: none;
     border:none;
     font-size: 1rem;
     padding: 1rem;
-    color: #444;
+    color: var(--color__dark__03);
 }
 
 .sendemail__form__group textarea {
@@ -55,8 +55,8 @@
 .sendemail__form__group__button button {
     font-size: 1.5rem;
     padding: 0.5rem 1.5rem;
-    background-color: #444;
-    color: white;
+    background-color: var(--color__dark__03);
+    color: var(--color__white);
     border-radius: 2rem;
     outline: none;
     border:none;
@@ -64,12 +64,12 @@
 }
 
 .sendemail__form__group__button button:hover {
-    background-color: #64f4ac;
-    color: #444;
+    background-color: var(--color__primary);
+    color: var(--color__dark__03);
 }
 
 .sendemail__form__error {
     padding-top: 0.2rem;
     font-size: 0.8rem;
-    color: #64f4ac;
+    color: var(--color__primary);
 }

@@ -81,7 +81,9 @@ const SendEmail = () => {
         {({ errors }) => (
           <Form ref={form} className="sendemail__form">
             <div className="sendemail__form__group">
-              <label htmlFor="name">Name</label>
+              <label className="sendemail__form__group__label" htmlFor="name">
+                Name
+              </label>
               <Field
                 id="name"
                 name="name"
@@ -97,7 +99,9 @@ const SendEmail = () => {
             </div>
 
             <div className="sendemail__form__group">
-              <label htmlFor="email">Email</label>
+              <label className="sendemail__form__group__label" htmlFor="email">
+                Email
+              </label>
               <Field
                 id="email"
                 name="email"
@@ -113,7 +117,12 @@ const SendEmail = () => {
             </div>
 
             <div className="sendemail__form__group">
-              <label htmlFor="message">Message</label>
+              <label
+                className="sendemail__form__group__label"
+                htmlFor="message"
+              >
+                Message
+              </label>
               <Field
                 as="textarea"
                 name="message"
@@ -138,7 +147,9 @@ const SendEmail = () => {
       {isModal && (
         <Modal handleModal={setIsModal} handleHeader={false}>
           <h3>Success</h3>
-          <p>I will contact you soon 😄</p>
+          <p className="overlay__modal__content__text">
+            I will contact you soon 😄
+          </p>
         </Modal>
       )}
     </div>

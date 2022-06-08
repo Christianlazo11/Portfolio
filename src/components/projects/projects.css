@@ -1,7 +1,7 @@
 .Projects {
     width: 100%;
     padding: 50px 0px;
-    background: #25262a;
+    background: var(--color__dark__01);
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 } 
 
@@ -17,17 +17,17 @@
     letter-spacing: 1px;
     margin: 70px 0 100px 70px;
     font-size: 25px;
-    color: #64f4ae;
+    color: var(--color__primary);
     background:none;
     text-transform: uppercase;
     outline:none;
     border: none;
-    border-bottom: 2px solid #64f4ae;
+    border-bottom: 2px solid var(--color__primary);
     cursor: pointer;
 }
 .projects__btn:hover {
-    color: white;
-    border-bottom: 2px solid white;
+    color: var(--color__white);
+    border-bottom: 2px solid var(--color__white);
 }
 .projects__right__box {
     height: 100%;
@@ -51,7 +51,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #111;
+    background: var(--color__black);
     padding: 1.5rem;
     transform: translateY(8rem);
     border-bottom-left-radius: 10px;
@@ -68,7 +68,7 @@
 .projects__right__box__a {
     padding: 0.5rem 1.2rem;
     border-radius: 10px;
-    background-color: #25262a;
+    background-color: var(--color__dark__01);
     cursor: pointer;
     display: flex;
     align-items:center;
@@ -76,36 +76,13 @@
     text-decoration: none;
 }
 .projects__right__box__a:hover *{
-    color: #64f4ac;
-    fill: #64f4ac;
+    color: var(--color__primary);
+    fill: var(--color__primary);
 }
 .projects__img {
     border-radius: 10px;
     filter: drop-shadow(10px 0 20px black);
     cursor: pointer;
-}
-.projects__img:hover {
-    /* animation: shake 0.3s; */
-}
-@keyframes shake {
-    0% {
-        transform: translate(1px,1px) rotate(0deg);
-    }
-    20%{
-        transform: translate(-3px,1px) rotate(1deg);
-    }
-    40%{
-        transform: translate(1px,-1px) rotate(1deg);
-    }
-    60%{
-        transform: translate(-3px,1px) rotate(0deg);
-    }
-    80%{
-        transform: translate(-1px,-1px) rotate(1deg);
-    }
-    100%{
-        transform: translate(1px,-2px) rotate(-1deg);
-    }
 }
 
 .projects__right {

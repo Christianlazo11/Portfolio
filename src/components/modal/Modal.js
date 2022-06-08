@@ -8,11 +8,12 @@ const Modal = ({ children, handleModal, handleHeader, title = "Alert" }) => {
       <div className="overlay__container">
         {handleHeader && (
           <div className="overlay__modal__top">
-            <h3>{title}</h3>
+            <h3 className="overlay__container__title">{title}</h3>
           </div>
         )}
 
         <button
+          className="overlay__container__button"
           onClick={() => {
             handleModal(false);
           }}

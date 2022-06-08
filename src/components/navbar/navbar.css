@@ -1,10 +1,10 @@
 .navbar {
     width:100%;
     padding: 30px 100px;
-    background-color: #2d2e32;
+    background-color: var(--color__dark__02);
 }
 
-nav {
+.navbar__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -16,11 +16,10 @@ nav {
     display: flex;
     font-size: 30px;
     cursor: pointer;
-    
 }
 
 .logo__span:hover {
-    color: #64f4ac;
+    color: var(--color__primary);
 }
 
 .logo__span {
@@ -54,7 +53,7 @@ nav {
 }
 
 .links > a:hover {
-    color: #64f4ac;
+    color: var(--color__primary);
 }
 
 .links {
@@ -101,7 +100,7 @@ nav {
     cursor: pointer;
 }
 .navbar__item:hover {
-    fill: #64f4ac;
+    fill: var(--color__primary);
 }
 
 .navbar__email {
@@ -111,12 +110,7 @@ nav {
     padding: 15px;
     border-radius: 50%;
     width: 55px;
-    background-color:#333438;
     cursor: pointer;
-}
-
-.navbar__email:hover {
-    background-color: #27282b;
 }
 
 @media (max-width: 1024px) {
@@ -132,7 +126,7 @@ nav {
         flex-direction: column;
         height: auto;
         padding: 0;
-        background-color: #333438;
+        background-color: var(--color__dark__03);
         z-index: 100;
     }
 

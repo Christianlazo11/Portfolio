@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./home.css";
+import "./banner.css";
 import imageReact from "../../assets/img/react-image.png";
 import imageNode from "../../assets/img/node-image.png";
 import imageJs from "../../assets/img/javascript-image.png";
@@ -18,25 +18,25 @@ const Home = () => {
   return load ? (
     <Loader />
   ) : (
-    <div className="Home" id="home">
+    <div className="Banner" id="banner">
       <div
-        className="home__container"
+        className="banner__container"
         data-aos="zoom-in"
         data-aos-offset="200"
         data-aos-once="false"
         data-aos-easing="ease-in"
       >
-        <div className="home__left">
-          <p className="home__left__subtitle">Front End Developer</p>
-          <div className="home__left__title">
+        <div className="banner__left">
+          <p className="banner__left__subtitle">Front End Developer</p>
+          <div className="banner__left__title">
             <p>Show me the code</p>
           </div>
-          <div className="home__left__info">
+          <div className="banner__left__info">
             <p>I desing and code beatifully simple things,</p>
             <p>and I love what I do.</p>
           </div>
           <a
-            className="home__left__a"
+            className="banner__left__a"
             target="_blank"
             rel="noreferrer"
             href="https://api.whatsapp.com/send?phone=+573163746523&text=Hi,%20tell%20me%20more"
@@ -44,22 +44,22 @@ const Home = () => {
             let's chat!
           </a>
         </div>
-        <div className="home__right">
-          <img src={avatar} alt="avatar" className="home__right__avatar" />
-          <div className="home__right__circle home__right__react">
+        <div className="banner__right">
+          <img src={avatar} alt="avatar" className="banner__right__avatar" />
+          <div className="banner__right__circle banner__right__react">
             <img src={imageReact} alt="react" className="icon" />
           </div>
-          <div className="home__right__circle home__right__node">
+          <div className="banner__right__circle banner__right__node">
             <img src={imageNode} alt="node" className="icon" />
           </div>
-          <div className="home__right__circle home__right__javascript">
+          <div className="banner__right__circle banner__right__javascript">
             <img src={imageJs} alt="javascript" className="icon" />
           </div>
         </div>
 
-        <div className="home__miniInfo">
-          <p className="info__number">3</p>
-          <p className="info__desc">Months Experience Freelancer</p>
+        <div className="banner__info">
+          <p className="banner__info__number">3</p>
+          <p className="banner__info__desc">Months Experience Freelancer</p>
         </div>
       </div>
     </div>
