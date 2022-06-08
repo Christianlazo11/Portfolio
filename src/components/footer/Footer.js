@@ -1,8 +1,11 @@
 import React from "react";
 import "./footer.css";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import useGlobalData from "../../hooks/useGlobalData";
 
 const Footer = () => {
+  const { globalData, language } = useGlobalData();
+
   return (
     <div className="footer container">
       <div className="footer__content">
@@ -12,7 +15,9 @@ const Footer = () => {
             <span>Christian</span> Lazo
           </p>
         </div>
-        <p className="footer__copyright">&copy; All Rights Reserved 2022</p>
+        <p className="footer__copyright">
+          &copy; {globalData[language].footerData.text}
+        </p>
         <div className="footer__socials">
           <div className="footer__socials_icons">
             <a

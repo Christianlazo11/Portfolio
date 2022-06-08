@@ -146,67 +146,271 @@ export const dataProjects = [
 ];
 
 export const dataPortfolio = {
-  projectsData: [
-    {
-      linkDemo: "https://atomicfilms2022.netlify.app/",
-      linkGithub:
-        "https://github.com/christianlazo2020/React__AtomicFilms_MovieApp.git",
-      img: "https://i.postimg.cc/pTgDPD8m/atomicfilms2022-netlify-app-3.png",
-      description: "Hi everyone xD",
-      projectName: "AtomicFilms",
-      technologies: ["react", "sass", "git"],
-      id: 15,
+  english: {
+    projectsData: [
+      {
+        linkDemo: "https://atomicfilms2022.netlify.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/React__AtomicFilms_MovieApp.git",
+        img: "https://i.postimg.cc/pTgDPD8m/atomicfilms2022-netlify-app-3.png",
+        description: "Hi everyone xD",
+        projectName: "AtomicFilms",
+        technologies: ["react", "sass", "git"],
+        id: 15,
+      },
+      {
+        linkDemo: "https://mireplicaweb.netlify.app/",
+        linkGithub: "https://github.com/christianlazo2020/myreplicaweb.git",
+        img:
+          "https://i.postimg.cc/4N9wRJ0M/mireplicaweb-netlify-app-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "replica-web",
+        technologies: ["html", "css", "javascript", "git"],
+        id: 1,
+      },
+      {
+        linkDemo: "https://covimap2022.netlify.app/",
+        linkGithub: "https://github.com/christianlazo2020/covimap.git",
+        img:
+          "https://i.postimg.cc/JnFgKpyB/covimap2022-netlify-app-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "covimap",
+        technologies: ["html", "sass", "javascript", "git"],
+        id: 2,
+      },
+      {
+        linkDemo: "https://escuelademusica2022.netlify.app/",
+        linkGithub: "https://github.com/christianlazo2020/EscuelaDeMusica.git",
+        img: "https://i.postimg.cc/wMJyf2p5/localhost-5500-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "Escuela de musica",
+        technologies: ["html", "sass", "javascript", "git"],
+        id: 3,
+      },
+      {
+        linkDemo: "https://todolist2050.netlify.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/App_GroupTask_Frontend.git",
+        img:
+          "https://i.postimg.cc/3Rt3v42L/todolist2050-netlify-app-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "todolist",
+        technologies: ["git", "react", "node", "mongo", "bootstrap"],
+        id: 4,
+      },
+      {
+        linkDemo: "https://crud-citas.vercel.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/App_Citas_Frontend.git",
+        img: "https://i.postimg.cc/1XSYsJ82/crud-citas-vercel-app-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "app-citas",
+        technologies: ["git", "react", "node", "mongo", "bootstrap"],
+        id: 5,
+      },
+      {
+        linkDemo: "https://apisearchmovies.netlify.app/",
+        linkGithub: "https://github.com/christianlazo2020/ApiSearchMovies.git",
+        img: "https://i.postimg.cc/bv4B0ZkV/localhost-3000-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "movie-search",
+        technologies: ["git", "react", "bootstrap"],
+        id: 6,
+      },
+      {
+        linkDemo: "https://wikimarvelheroes.netlify.app/",
+        linkGithub: "https://github.com/christianlazo2020/WikiHeroeMarvel.git",
+        img: "https://i.postimg.cc/wj59pF6s/wikimarvelheroes.png",
+        description: "Hi everyone xD",
+        projectName: "wiki-marvel",
+        technologies: ["git", "react", "bootstrap"],
+        id: 7,
+      },
+      {
+        linkDemo: "https://riackandmortyapp2021.netlify.app/",
+        linkGithub: "https://github.com/christianlazo2020/RickAndMortyApp.git",
+        img:
+          "https://i.postimg.cc/7PXpqrNN/riackandmortyapp2021-netlify-app-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "rick&morty",
+        technologies: ["git", "react", "bootstrap"],
+        id: 8,
+      },
+      {
+        linkDemo: "https://reactweatherapp2050.netlify.app/",
+        linkGithub: "https://github.com/christianlazo2020/React-Weatherapp.git",
+        img:
+          "https://i.postimg.cc/sX5G5JTV/reactweatherapp2050-netlify-app-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "weather-app",
+        technologies: ["git", "react", "bootstrap"],
+        id: 9,
+      },
+      {
+        linkDemo: "https://reactrandomquotes2050.netlify.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/React-randomQuotes.git",
+        img:
+          "https://i.postimg.cc/TwbwF8HV/reactrandomquotes2050-netlify-app-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "random-quotes",
+        technologies: ["git", "react", "bootstrap"],
+        id: 10,
+      },
+      {
+        linkDemo: "https://landingpagefitness.netlify.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/LandingPageFitness.git",
+        img:
+          "https://i.postimg.cc/3JfZ3mxt/landingpagefitness-netlify-app-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "landing-fitness",
+        technologies: ["html", "css", "javascript", "git"],
+        id: 11,
+      },
+      {
+        linkDemo: "https://landingpageburger.netlify.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/LandingPageBurger.git",
+        img:
+          "https://i.postimg.cc/fRRD93mt/landingpageburger-netlify-app-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "landing-burger",
+        technologies: ["html", "css", "javascript", "git"],
+        id: 12,
+      },
+      {
+        linkDemo: "https://landingpagecoffee.netlify.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/Landing__Coffee__Shop.git",
+        img: "https://i.postimg.cc/xdF0J561/landingpagecoffee-netlify-app.png",
+        description: "Hi everyone xD",
+        projectName: "Landing-Coffee",
+        technologies: ["html", "css", "javascript", "git"],
+        id: 13,
+      },
+      {
+        linkDemo: "https://landingwatchstore.netlify.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/Landing__Watch__Store.git",
+        img: "https://i.postimg.cc/yNN18tXG/landingwatchstore-netlify-app.png",
+        description: "Hi everyone xD",
+        projectName: "Landing-WatchStore",
+        technologies: ["html", "css", "javascript", "git"],
+        id: 14,
+      },
+    ],
+    navbarData: ["About", "Projects", "Contact"],
+    bannerData: {
+      title: "Front End Developer",
+      title02: "Show me the code",
+      span: "I desing and code beatifully simple things,",
+      span02: "and I love what I do.",
+      chat: "Let's Chat!",
+      experience: "Months Experience Freelancer",
     },
-    {
-      linkDemo: "https://mireplicaweb.netlify.app/",
-      linkGithub: "https://github.com/christianlazo2020/myreplicaweb.git",
-      img: "https://i.postimg.cc/4N9wRJ0M/mireplicaweb-netlify-app-Desktop.png",
-      description: "Hi everyone xD",
-      projectName: "replica-web",
-      technologies: ["html", "css", "javascript", "git"],
-      id: 1,
+    aboutData: {
+      card01: {
+        title: "Desing",
+        span: "Create digital products with unique ideas",
+        text: "10 Projects",
+      },
+      card02: {
+        title: "Front End",
+        span: "I develop front-end with clean code",
+        text: "10 Projects",
+      },
+      aboutme: {
+        text01: "Hello! I'm Christian Lazo",
+        text02: "Every great design begin with an even better story",
+        text03:
+          "I like to create new things and solving problems in the easiest way and I also like watching boxing and rap battles",
+      },
     },
-  ],
-  navbarData: ["Sobre Mi", "Proyectos", "Contacto"],
-  bannerData: {
-    title: "Front End Developer",
-    title02: "Show me the code",
-    span: "I desing and code beatifully simple things, and I love what I do.",
-    chat: "Let's Chat!",
-    experience: "Months Experience Freelancer",
+    contactData: {
+      contentLeft: {
+        text01: "Let's make something amazing together",
+        text02: "Start by",
+        span02: "saying hi",
+        text03: "Download Resume.",
+        text04: "View Resume.",
+      },
+      contentRigth: {
+        text01: "Information",
+        text02: "Colombia Pasto, Nariño",
+        text03: "Kenishi.cristian@hotmail.com",
+        text04: "3163746523",
+        links: ["Home", "About", "Projects"],
+      },
+    },
+    footerData: {
+      text: "All Rights Reserved 2022",
+    },
   },
-  aboutData: {
-    card01: {
-      title: "Desing",
-      span: "Create digital products with unique ideas",
-      text: "10 Projects",
+  spanish: {
+    projectsData: [
+      {
+        linkDemo: "https://atomicfilms2022.netlify.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/React__AtomicFilms_MovieApp.git",
+        img: "https://i.postimg.cc/pTgDPD8m/atomicfilms2022-netlify-app-3.png",
+        description: "Hi everyone xD",
+        projectName: "AtomicFilms",
+        technologies: ["react", "sass", "git"],
+        id: 15,
+      },
+      {
+        linkDemo: "https://mireplicaweb.netlify.app/",
+        linkGithub: "https://github.com/christianlazo2020/myreplicaweb.git",
+        img:
+          "https://i.postimg.cc/4N9wRJ0M/mireplicaweb-netlify-app-Desktop.png",
+        description: "Hi everyone xD",
+        projectName: "replica-web",
+        technologies: ["html", "css", "javascript", "git"],
+        id: 1,
+      },
+    ],
+    navbarData: ["Sobre Mi", "Proyectos", "Contacto"],
+    bannerData: {
+      title: "Front End Developer",
+      title02: "Show me the code",
+      span: "I desing and code beatifully simple things, and I love what I do.",
+      chat: "Let's Chat!",
+      experience: "Months Experience Freelancer",
     },
-    card02: {
-      title: "Front End",
-      span: "I develop front-end with clean code",
-      text: "10 Projects",
+    aboutData: {
+      card01: {
+        title: "Desing",
+        span: "Create digital products with unique ideas",
+        text: "10 Projects",
+      },
+      card02: {
+        title: "Front End",
+        span: "I develop front-end with clean code",
+        text: "10 Projects",
+      },
+      aboutme: {
+        text01: "Hello! I'm Christian Lazo",
+        text02: "Every great design begin with an even better story",
+        text03:
+          "I like to create new things and solving problems in the easiest way and I also like watching boxing and rap battles",
+      },
     },
-    aboutme: {
-      text01: "Hello! I'm Christian Lazo",
-      text02: "Every great design begin with an even better story",
-      text03:
-        "I like to create new things and solving problems in the easiest way and I also like watching boxing and rap battles",
-    },
-  },
-  contactData: {
-    contentRigth: {
-      text01: "Let's make something amazing together",
-      text02: "Start by",
-      span02: "saying hi",
-      text03: "Download Resume",
-      text04: "View Resume",
-    },
-    contentLeft: {
-      text01: "Information",
-      text02: "Colombia Pasto, Nariño",
-      text03: "Kenishi.cristian@hotmail.com",
-      text04: "3163746523",
-      links: ["Home", "About", "Projects"],
+    contactData: {
+      contentRigth: {
+        text01: "Let's make something amazing together",
+        text02: "Start by",
+        span02: "saying hi",
+        text03: "Download Resume",
+        text04: "View Resume",
+      },
+      contentLeft: {
+        text01: "Information",
+        text02: "Colombia Pasto, Nariño",
+        text03: "Kenishi.cristian@hotmail.com",
+        text04: "3163746523",
+        links: ["Home", "About", "Projects"],
+      },
     },
   },
 };

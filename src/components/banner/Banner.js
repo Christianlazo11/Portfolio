@@ -6,11 +6,13 @@ import imageJs from "../../assets/img/javascript-image.png";
 import avatar from "../../assets/img/AvatarMaker.svg";
 import Loader from "../loader/Loader";
 import AOS from "aos";
+import useGlobalData from "../../hooks/useGlobalData";
 
 const Home = () => {
   AOS.init();
 
   const [load, setLoad] = useState(true);
+  const { globalData, language } = useGlobalData();
 
   setTimeout(() => {
     setLoad(false);
@@ -27,13 +29,15 @@ const Home = () => {
         data-aos-easing="ease-in"
       >
         <div className="banner__left">
-          <p className="banner__left__subtitle">Front End Developer</p>
+          <p className="banner__left__subtitle">
+            {globalData[language].bannerData.title}
+          </p>
           <div className="banner__left__title">
-            <p>Show me the code</p>
+            <p>{globalData[language].bannerData.title02}</p>
           </div>
           <div className="banner__left__info">
-            <p>I desing and code beatifully simple things,</p>
-            <p>and I love what I do.</p>
+            <p>{globalData[language].bannerData.span}</p>
+            <p>{globalData[language].bannerData.span02}</p>
           </div>
           <a
             className="banner__left__a"
@@ -41,7 +45,7 @@ const Home = () => {
             rel="noreferrer"
             href="https://api.whatsapp.com/send?phone=+573163746523&text=Hi,%20tell%20me%20more"
           >
-            let's chat!
+            {globalData[language].bannerData.chat}
           </a>
         </div>
         <div className="banner__right">
@@ -59,7 +63,9 @@ const Home = () => {
 
         <div className="banner__info">
           <p className="banner__info__number">3</p>
-          <p className="banner__info__desc">Months Experience Freelancer</p>
+          <p className="banner__info__desc">
+            {globalData[language].bannerData.experience}
+          </p>
         </div>
       </div>
     </div>

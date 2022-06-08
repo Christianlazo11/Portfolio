@@ -3,9 +3,12 @@ import "./about.css";
 import { FaFeatherAlt, FaCode } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import useGlobalData from "../../hooks/useGlobalData";
 
 const About = () => {
   AOS.init();
+  const { globalData, language } = useGlobalData();
+
   return (
     <div className="About" id="about">
       <div className="about__left">
@@ -18,13 +21,17 @@ const About = () => {
             data-aos-easing="ease-in-cubic"
           >
             <div className="card__top">
-              <p className="card__title">Desing</p>
+              <p className="card__title">
+                {globalData[language].aboutData.card01.title}
+              </p>
               <FaCode className="card__icon" />
             </div>
             <p className="card__desc">
-              Create digital products with unique ideas
+              {globalData[language].aboutData.card01.span}
             </p>
-            <p className="card__link">10 Projects</p>
+            <p className="card__link">
+              {globalData[language].aboutData.card01.text}
+            </p>
           </div>
           {/* card */}
           <div
@@ -35,11 +42,17 @@ const About = () => {
             data-aos-easing="ease-in-cubic"
           >
             <div className="card__top">
-              <p className="card__title">Front End</p>
+              <p className="card__title">
+                {globalData[language].aboutData.card02.title}
+              </p>
               <FaFeatherAlt className="card__icon" />
             </div>
-            <p className="card__desc">I develop front-end with clean code</p>
-            <p className="card__link">10 Projects</p>
+            <p className="card__desc">
+              {globalData[language].aboutData.card02.span}
+            </p>
+            <p className="card__link">
+              {globalData[language].aboutData.card01.text}
+            </p>
           </div>
           {/* card */}
         </div>
@@ -51,13 +64,14 @@ const About = () => {
         data-aos-offset="200"
         data-aos-once="false"
       >
-        <p className="about__subtitle">Hello! I'm Christian Lazo</p>
+        <p className="about__subtitle">
+          {globalData[language].aboutData.aboutme.text01}
+        </p>
         <p className="about__info">
-          Every great design begin with an even better story
+          {globalData[language].aboutData.aboutme.text02}
         </p>
         <p className="about__desc">
-          I like to create new things and solving problems in the easiest way
-          and I also like watching boxing and rap battles.
+          {globalData[language].aboutData.aboutme.text03}
         </p>
       </div>
     </div>

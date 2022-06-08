@@ -5,9 +5,12 @@ import resume from "../../assets/Curriculum/Resume__English.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import useGlobalData from "../../hooks/useGlobalData";
 
 const Contact = () => {
   AOS.init();
+  const { globalData, language } = useGlobalData();
+
   return (
     <div className="Contact" id="contact">
       <div
@@ -19,13 +22,15 @@ const Contact = () => {
       >
         <div className="contact__left">
           <p className="contact__left__desc">
-            Let's make something amazing together
+            {globalData[language].contactData.contentLeft.text01}
           </p>
           <p className="contact__left__connect">
-            Start by{" "}
+            {globalData[language].contactData.contentLeft.text02}
             <span>
               {" "}
-              <Link to="/formcontact">saying hi</Link>
+              <Link to="/formcontact">
+                {globalData[language].contactData.contentLeft.span02}
+              </Link>
             </span>{" "}
           </p>
           <div className="contact__left__links">
@@ -34,7 +39,7 @@ const Contact = () => {
               download="Resume_Christian_Lazo"
               className="contact__left__cv"
             >
-              👉🏾Download Resume.
+              👉🏾{globalData[language].contactData.contentLeft.text03}
             </a>
             <a
               href="https://drive.google.com/file/d/13PWXE-K9GH-W50LxFTm1L6egYsZLHTPQ/view?usp=sharing"
@@ -42,27 +47,39 @@ const Contact = () => {
               rel="noreferrer"
               className="contact__left__cv"
             >
-              🔎View Resume.
+              🔎{globalData[language].contactData.contentLeft.text04}
             </a>
           </div>
         </div>
         <div className="contact__right">
-          <p className="contact__right__title">Information</p>
-          <p className="contact__right__address">Colombia Pasto, Nariño</p>
-          <p className="contact__right__email">Kenishi.cristian@hotmail.com</p>
+          <p className="contact__right__title">
+            {globalData[language].contactData.contentRigth.text01}
+          </p>
+          <p className="contact__right__address">
+            {globalData[language].contactData.contentRigth.text02}
+          </p>
+          <p className="contact__right__email">
+            {globalData[language].contactData.contentRigth.text03}
+          </p>
           <p className="contact__right__phone">
             <FaPhoneAlt className="icon" />
-            3163746523
+            {globalData[language].contactData.contentRigth.text04}
           </p>
           <ul className="contact__right__ul">
             <li className="contact__right__links">
-              <a href="#home">Home</a>
+              <a href="#home">
+                {globalData[language].contactData.contentRigth.links[0]}
+              </a>
             </li>
             <li className="contact__right__links">
-              <a href="#about">About</a>
+              <a href="#about">
+                {globalData[language].contactData.contentRigth.links[1]}
+              </a>
             </li>
             <li className="contact__right__links">
-              <a href="#projects">Projects</a>
+              <a href="#projects">
+                {globalData[language].contactData.contentRigth.links[2]}
+              </a>
             </li>
           </ul>
         </div>

@@ -9,10 +9,12 @@ import {
   FaLinkedin,
   FaIdBadge,
 } from "react-icons/fa";
+import useGlobalData from "../../hooks/useGlobalData";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const { globalData, language } = useGlobalData();
 
   useEffect(() => {
     const changeWidth = () => {
@@ -35,13 +37,13 @@ const Navbar = () => {
         {(toggleMenu || screenWidth > 1024) && (
           <ul className="list">
             <li className="links">
-              <a href="/#about">About</a>
+              <a href="/#about">{globalData[language].navbarData[0]}</a>
             </li>
             <li className="links">
-              <a href="/#projects">Projects</a>
+              <a href="/#projects">{globalData[language].navbarData[1]}</a>
             </li>
             <li className="links">
-              <a href="/#contact">Contact</a>
+              <a href="/#contact">{globalData[language].navbarData[2]}</a>
             </li>
           </ul>
         )}
