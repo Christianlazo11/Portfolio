@@ -35,13 +35,13 @@ const Navbar = () => {
         {(toggleMenu || screenWidth > 1024) && (
           <ul className="list">
             <li className="links">
-              <a href="#about">About</a>
+              <a href="/#about">About</a>
             </li>
             <li className="links">
-              <a href="#projects">Projects</a>
+              <a href="/#projects">Projects</a>
             </li>
             <li className="links">
-              <a href="#contact">Contact</a>
+              <a href="/#contact">Contact</a>
             </li>
           </ul>
         )}
