@@ -1,7 +1,8 @@
 import React from "react";
 import "./contact.css";
 import { FaPhoneAlt } from "react-icons/fa";
-import resume from "../../assets/Curriculum/Resume__English.pdf";
+import resume__english from "../../assets/Curriculum/Resume__English.pdf";
+import resume__spanish from "../../assets/Curriculum/Resume__Español.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
@@ -34,21 +35,43 @@ const Contact = () => {
             </span>{" "}
           </p>
           <div className="contact__left__links">
-            <a
-              href={resume}
-              download="Resume_Christian_Lazo"
-              className="contact__left__cv"
-            >
-              👉🏾{globalData[language].contactData.contentLeft.text03}
-            </a>
-            <a
-              href="https://drive.google.com/file/d/13PWXE-K9GH-W50LxFTm1L6egYsZLHTPQ/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-              className="contact__left__cv"
-            >
-              🔎{globalData[language].contactData.contentLeft.text04}
-            </a>
+            {language === "english" ? (
+              <>
+                <a
+                  href={resume__english}
+                  download="Resume_Christian_Lazo"
+                  className="contact__left__cv"
+                >
+                  👉🏾{globalData[language].contactData.contentLeft.text03}
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/13PWXE-K9GH-W50LxFTm1L6egYsZLHTPQ/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="contact__left__cv"
+                >
+                  🔎{globalData[language].contactData.contentLeft.text04}
+                </a>
+              </>
+            ) : (
+              <>
+                <a
+                  href={resume__spanish}
+                  download="Resume_Christian_Lazo"
+                  className="contact__left__cv"
+                >
+                  👉🏾{globalData[language].contactData.contentLeft.text03}
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1brFtxN37asf8WwNst_T7IV3N-eEOX2bi/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="contact__left__cv"
+                >
+                  🔎{globalData[language].contactData.contentLeft.text04}
+                </a>
+              </>
+            )}
           </div>
         </div>
         <div className="contact__right">
