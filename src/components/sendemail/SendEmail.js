@@ -5,12 +5,14 @@ import AOS from "aos";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import Modal from "../modal/Modal";
 import emailjs from "@emailjs/browser";
+import useGlobalData from "../../hooks/useGlobalData";
 
 const SendEmail = () => {
   AOS.init();
   const [load, setLoad] = useState(true);
   const [isModal, setIsModal] = useState(false);
   const form = useRef();
+  const { globalData, language } = useGlobalData();
 
   const sendEmail = () => {
     emailjs
@@ -52,22 +54,39 @@ const SendEmail = () => {
         validate={(valores) => {
           let errors = {};
           if (!valores.name) {
-            errors.name = "Please enter your name";
+            if (language === "english") {
+              errors.name = "Please enter your name";
+            } else {
+              errors.name = "Por favor ingrese su nombre";
+            }
           } else if (!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(valores.name)) {
             errors.name = "The name can only contain letters and spaces";
           }
           if (!valores.email) {
-            errors.email = "Please enter an email";
+            if (language === "english") {
+              errors.email = "Please enter your email";
+            } else {
+              errors.email = "Por favor ingrese su correo";
+            }
           } else if (
             !/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(
               valores.email
             )
           ) {
-            errors.email =
-              "Mail can only contain letters, periods and underscores.";
+            if (language === "english") {
+              errors.email =
+                "Mail can only contain letters, periods and underscores.";
+            } else {
+              errors.email =
+                "El correo sólo puede contener letras, puntos y guiones bajos.";
+            }
           }
           if (!valores.message) {
-            errors.message = "Please enter a message";
+            if (language === "english") {
+              errors.message = "Please enter a message";
+            } else {
+              errors.message = "Por favor ingrese un mensaje";
+            }
           }
 
           return errors;
@@ -82,13 +101,13 @@ const SendEmail = () => {
           <Form ref={form} className="sendemail__form">
             <div className="sendemail__form__group">
               <label className="sendemail__form__group__label" htmlFor="name">
-                Name
+                {globalData[language].formContactData.text01}
               </label>
               <Field
                 id="name"
                 name="name"
                 type="text"
-                placeholder="Enter your name"
+                placeholder={globalData[language].formContactData.placeholder01}
               />
               <ErrorMessage
                 name="name"
@@ -100,13 +119,13 @@ const SendEmail = () => {
 
             <div className="sendemail__form__group">
               <label className="sendemail__form__group__label" htmlFor="email">
-                Email
+                {globalData[language].formContactData.text02}
               </label>
               <Field
                 id="email"
                 name="email"
                 type="email"
-                placeholder="Enter your email"
+                placeholder={globalData[language].formContactData.placeholder02}
               />
               <ErrorMessage
                 name="email"
@@ -121,7 +140,7 @@ const SendEmail = () => {
                 className="sendemail__form__group__label"
                 htmlFor="message"
               >
-                Message
+                {globalData[language].formContactData.text03}
               </label>
               <Field
                 as="textarea"
@@ -139,16 +158,24 @@ const SendEmail = () => {
             </div>
 
             <div className="sendemail__form__group__button">
-              <button type="submit">Send</button>
+              <button type="submit">
+                {globalData[language].formContactData.textButton}
+              </button>
             </div>
           </Form>
         )}
       </Formik>
       {isModal && (
         <Modal handleModal={setIsModal} handleHeader={false}>
-          <h3>Success</h3>
+          <h3>
+            {language === "english"
+              ? "mail sent successfully"
+              : "correo enviado con éxito"}
+          </h3>
           <p className="overlay__modal__content__text">
-            I will contact you soon 😄
+            {language === "english"
+              ? "I will contact you soon 😄"
+              : "Me pondré en contacto contigo pronto 😄"}
           </p>
         </Modal>
       )}

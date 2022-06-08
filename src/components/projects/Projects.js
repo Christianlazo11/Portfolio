@@ -1,6 +1,5 @@
 import React from "react";
 import "./projects.css";
-import { dataProjects } from "../../data/dataProjects";
 import { FaGithubAlt, FaWifi } from "react-icons/fa";
 import { Icon } from "@iconify/react";
 import AOS from "aos";
@@ -30,7 +29,7 @@ const Projects = () => {
           {globalData[language].projectsTitle}
         </button>
         <div className="projects__right">
-          {dataProjects.map((item) => (
+          {globalData[language].projectsData.map((item) => (
             <div
               className="projects__right__box"
               data-aos="zoom-in-up"
@@ -68,7 +67,7 @@ const Projects = () => {
                     rel="noreferrer"
                   >
                     <FaGithubAlt className="icon" />
-                    <span>Code</span>
+                    <span>{language === "english" ? "Code" : "Código"}</span>
                   </a>
                 </div>
               </div>

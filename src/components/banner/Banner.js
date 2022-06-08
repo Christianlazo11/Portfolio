@@ -20,7 +20,7 @@ const Home = () => {
   return load ? (
     <Loader />
   ) : (
-    <div className="Banner" id="banner">
+    <div className="Banner" id="home">
       <div
         className="banner__container"
         data-aos="zoom-in"

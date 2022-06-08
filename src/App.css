@@ -24,6 +24,9 @@
   transition: all 0.2s linear;
 }
 
+body {
+  background-color: var(--color__dark__01);
+}
 
 html::-webkit-scrollbar {
   width: 0.3rem;
