@@ -2,6 +2,26 @@ export const dataPortfolio = {
   english: {
     projectsData: [
       {
+        linkDemo: "https://escape-room-smoky.vercel.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/FrontEnd_Escape_Room.git",
+        img: "https://i.postimg.cc/wMrBpvxt/escape-room.png",
+        description: "Hi everyone xD",
+        projectName: "Escape Room",
+        technologies: ["react", "git", "tailwind", "node", "mongo"],
+        id: 1,
+      },
+      {
+        linkDemo: "https://distrifiestaspinatas.netlify.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/Ecommerce-2022D-P.git",
+        img: "https://i.postimg.cc/5y3Sj9Vx/image-Dyps.png",
+        description: "Hi everyone xD",
+        projectName: "E-commerce",
+        technologies: ["react", "sass", "git", "bootstrap", "node", "mongo"],
+        id: 2,
+      },
+      {
         linkDemo: "https://atomicfilms2022.netlify.app/",
         linkGithub:
           "https://github.com/christianlazo2020/React__AtomicFilms_MovieApp.git",
@@ -9,17 +29,7 @@ export const dataPortfolio = {
         description: "Hi everyone xD",
         projectName: "AtomicFilms",
         technologies: ["react", "sass", "git"],
-        id: 15,
-      },
-      {
-        linkDemo: "https://mireplicaweb.netlify.app/",
-        linkGithub: "https://github.com/christianlazo2020/myreplicaweb.git",
-        img:
-          "https://i.postimg.cc/4N9wRJ0M/mireplicaweb-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "replication",
-        technologies: ["html", "css", "javascript", "git"],
-        id: 1,
+        id: 4,
       },
       {
         linkDemo: "https://covimap2022.netlify.app/",
@@ -29,7 +39,7 @@ export const dataPortfolio = {
         description: "Hi everyone xD",
         projectName: "Covimap",
         technologies: ["html", "sass", "javascript", "git"],
-        id: 2,
+        id: 6,
       },
       {
         linkDemo: "https://escuelademusica2022.netlify.app/",
@@ -38,7 +48,7 @@ export const dataPortfolio = {
         description: "Hi everyone xD",
         projectName: "Music School",
         technologies: ["html", "sass", "javascript", "git"],
-        id: 3,
+        id: 7,
       },
       {
         linkDemo: "https://todolist2050.netlify.app/",
@@ -49,7 +59,7 @@ export const dataPortfolio = {
         description: "Hi everyone xD",
         projectName: "To-Do-list",
         technologies: ["git", "react", "node", "mongo", "bootstrap"],
-        id: 4,
+        id: 8,
       },
       {
         linkDemo: "https://crud-citas.vercel.app/",
@@ -59,98 +69,7 @@ export const dataPortfolio = {
         description: "Hi everyone xD",
         projectName: "Dating App",
         technologies: ["git", "react", "node", "mongo", "bootstrap"],
-        id: 5,
-      },
-      {
-        linkDemo: "https://apisearchmovies.netlify.app/",
-        linkGithub: "https://github.com/christianlazo2020/ApiSearchMovies.git",
-        img: "https://i.postimg.cc/bv4B0ZkV/localhost-3000-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "Movie-Search",
-        technologies: ["git", "react", "bootstrap"],
-        id: 6,
-      },
-      {
-        linkDemo: "https://wikimarvelheroes.netlify.app/",
-        linkGithub: "https://github.com/christianlazo2020/WikiHeroeMarvel.git",
-        img: "https://i.postimg.cc/wj59pF6s/wikimarvelheroes.png",
-        description: "Hi everyone xD",
-        projectName: "Wiki-Marvel",
-        technologies: ["git", "react", "bootstrap"],
-        id: 7,
-      },
-      {
-        linkDemo: "https://riackandmortyapp2021.netlify.app/",
-        linkGithub: "https://github.com/christianlazo2020/RickAndMortyApp.git",
-        img:
-          "https://i.postimg.cc/7PXpqrNN/riackandmortyapp2021-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "Rick&Morty ",
-        technologies: ["git", "react", "bootstrap"],
-        id: 8,
-      },
-      {
-        linkDemo: "https://reactweatherapp2050.netlify.app/",
-        linkGithub: "https://github.com/christianlazo2020/React-Weatherapp.git",
-        img:
-          "https://i.postimg.cc/sX5G5JTV/reactweatherapp2050-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "Weather App",
-        technologies: ["git", "react", "bootstrap"],
         id: 9,
-      },
-      {
-        linkDemo: "https://reactrandomquotes2050.netlify.app/",
-        linkGithub:
-          "https://github.com/christianlazo2020/React-randomQuotes.git",
-        img:
-          "https://i.postimg.cc/TwbwF8HV/reactrandomquotes2050-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "Random Quotes",
-        technologies: ["git", "react", "bootstrap"],
-        id: 10,
-      },
-      {
-        linkDemo: "https://landingpagefitness.netlify.app/",
-        linkGithub:
-          "https://github.com/christianlazo2020/LandingPageFitness.git",
-        img:
-          "https://i.postimg.cc/3JfZ3mxt/landingpagefitness-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "Landing Fitness",
-        technologies: ["html", "css", "javascript", "git"],
-        id: 11,
-      },
-      {
-        linkDemo: "https://landingpageburger.netlify.app/",
-        linkGithub:
-          "https://github.com/christianlazo2020/LandingPageBurger.git",
-        img:
-          "https://i.postimg.cc/fRRD93mt/landingpageburger-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "Landing Burger",
-        technologies: ["html", "css", "javascript", "git"],
-        id: 12,
-      },
-      {
-        linkDemo: "https://landingpagecoffee.netlify.app/",
-        linkGithub:
-          "https://github.com/christianlazo2020/Landing__Coffee__Shop.git",
-        img: "https://i.postimg.cc/xdF0J561/landingpagecoffee-netlify-app.png",
-        description: "Hi everyone xD",
-        projectName: "Landing Coffee",
-        technologies: ["html", "css", "javascript", "git"],
-        id: 13,
-      },
-      {
-        linkDemo: "https://landingwatchstore.netlify.app/",
-        linkGithub:
-          "https://github.com/christianlazo2020/Landing__Watch__Store.git",
-        img: "https://i.postimg.cc/yNN18tXG/landingwatchstore-netlify-app.png",
-        description: "Hi everyone xD",
-        projectName: "Landing WatchStore",
-        technologies: ["html", "css", "javascript", "git"],
-        id: 14,
       },
     ],
     projectsTitle: "All Projects",
@@ -220,7 +139,7 @@ export const dataPortfolio = {
         description: "Hi everyone xD",
         projectName: "AtomicFilms",
         technologies: ["react", "sass", "git"],
-        id: 15,
+        id: 1,
       },
       {
         linkDemo: "https://mireplicaweb.netlify.app/",
@@ -228,9 +147,9 @@ export const dataPortfolio = {
         img:
           "https://i.postimg.cc/4N9wRJ0M/mireplicaweb-netlify-app-Desktop.png",
         description: "Hi everyone xD",
-        projectName: "Replica web",
+        projectName: "replication",
         technologies: ["html", "css", "javascript", "git"],
-        id: 1,
+        id: 2,
       },
       {
         linkDemo: "https://covimap2022.netlify.app/",
@@ -238,18 +157,18 @@ export const dataPortfolio = {
         img:
           "https://i.postimg.cc/JnFgKpyB/covimap2022-netlify-app-Desktop.png",
         description: "Hi everyone xD",
-        projectName: "CoviMap",
+        projectName: "Covimap",
         technologies: ["html", "sass", "javascript", "git"],
-        id: 2,
+        id: 3,
       },
       {
         linkDemo: "https://escuelademusica2022.netlify.app/",
         linkGithub: "https://github.com/christianlazo2020/EscuelaDeMusica.git",
         img: "https://i.postimg.cc/wMJyf2p5/localhost-5500-Desktop.png",
         description: "Hi everyone xD",
-        projectName: "Escuela de música",
+        projectName: "Music School",
         technologies: ["html", "sass", "javascript", "git"],
-        id: 3,
+        id: 4,
       },
       {
         linkDemo: "https://todolist2050.netlify.app/",
@@ -258,9 +177,9 @@ export const dataPortfolio = {
         img:
           "https://i.postimg.cc/3Rt3v42L/todolist2050-netlify-app-Desktop.png",
         description: "Hi everyone xD",
-        projectName: "Lista de Tareas",
+        projectName: "To-Do-list",
         technologies: ["git", "react", "node", "mongo", "bootstrap"],
-        id: 4,
+        id: 5,
       },
       {
         linkDemo: "https://crud-citas.vercel.app/",
@@ -268,100 +187,9 @@ export const dataPortfolio = {
           "https://github.com/christianlazo2020/App_Citas_Frontend.git",
         img: "https://i.postimg.cc/1XSYsJ82/crud-citas-vercel-app-Desktop.png",
         description: "Hi everyone xD",
-        projectName: "Aplicación de Citas",
+        projectName: "Dating App",
         technologies: ["git", "react", "node", "mongo", "bootstrap"],
-        id: 5,
-      },
-      {
-        linkDemo: "https://apisearchmovies.netlify.app/",
-        linkGithub: "https://github.com/christianlazo2020/ApiSearchMovies.git",
-        img: "https://i.postimg.cc/bv4B0ZkV/localhost-3000-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "Buscador de Películas",
-        technologies: ["git", "react", "bootstrap"],
         id: 6,
-      },
-      {
-        linkDemo: "https://wikimarvelheroes.netlify.app/",
-        linkGithub: "https://github.com/christianlazo2020/WikiHeroeMarvel.git",
-        img: "https://i.postimg.cc/wj59pF6s/wikimarvelheroes.png",
-        description: "Hi everyone xD",
-        projectName: "Buscador De Heroes",
-        technologies: ["git", "react", "bootstrap"],
-        id: 7,
-      },
-      {
-        linkDemo: "https://riackandmortyapp2021.netlify.app/",
-        linkGithub: "https://github.com/christianlazo2020/RickAndMortyApp.git",
-        img:
-          "https://i.postimg.cc/7PXpqrNN/riackandmortyapp2021-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "Rick&Morty",
-        technologies: ["git", "react", "bootstrap"],
-        id: 8,
-      },
-      {
-        linkDemo: "https://reactweatherapp2050.netlify.app/",
-        linkGithub: "https://github.com/christianlazo2020/React-Weatherapp.git",
-        img:
-          "https://i.postimg.cc/sX5G5JTV/reactweatherapp2050-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "Aplicación del Clima",
-        technologies: ["git", "react", "bootstrap"],
-        id: 9,
-      },
-      {
-        linkDemo: "https://reactrandomquotes2050.netlify.app/",
-        linkGithub:
-          "https://github.com/christianlazo2020/React-randomQuotes.git",
-        img:
-          "https://i.postimg.cc/TwbwF8HV/reactrandomquotes2050-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "Citas al Azar",
-        technologies: ["git", "react", "bootstrap"],
-        id: 10,
-      },
-      {
-        linkDemo: "https://landingpagefitness.netlify.app/",
-        linkGithub:
-          "https://github.com/christianlazo2020/LandingPageFitness.git",
-        img:
-          "https://i.postimg.cc/3JfZ3mxt/landingpagefitness-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "landing-fitness",
-        technologies: ["html", "css", "javascript", "git"],
-        id: 11,
-      },
-      {
-        linkDemo: "https://landingpageburger.netlify.app/",
-        linkGithub:
-          "https://github.com/christianlazo2020/LandingPageBurger.git",
-        img:
-          "https://i.postimg.cc/fRRD93mt/landingpageburger-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "landing-Hamburguesas",
-        technologies: ["html", "css", "javascript", "git"],
-        id: 12,
-      },
-      {
-        linkDemo: "https://landingpagecoffee.netlify.app/",
-        linkGithub:
-          "https://github.com/christianlazo2020/Landing__Coffee__Shop.git",
-        img: "https://i.postimg.cc/xdF0J561/landingpagecoffee-netlify-app.png",
-        description: "Hi everyone xD",
-        projectName: "Landing-Café",
-        technologies: ["html", "css", "javascript", "git"],
-        id: 13,
-      },
-      {
-        linkDemo: "https://landingwatchstore.netlify.app/",
-        linkGithub:
-          "https://github.com/christianlazo2020/Landing__Watch__Store.git",
-        img: "https://i.postimg.cc/yNN18tXG/landingwatchstore-netlify-app.png",
-        description: "Hi everyone xD",
-        projectName: "Landing-Relojes",
-        technologies: ["html", "css", "javascript", "git"],
-        id: 14,
       },
     ],
     projectsTitle: "Todos Los Proyectos",
@@ -422,3 +250,157 @@ export const dataPortfolio = {
     },
   },
 };
+
+// projectsData: [
+//   {
+//     linkDemo: "https://atomicfilms2022.netlify.app/",
+//     linkGithub:
+//       "https://github.com/christianlazo2020/React__AtomicFilms_MovieApp.git",
+//     img: "https://i.postimg.cc/pTgDPD8m/atomicfilms2022-netlify-app-3.png",
+//     description: "Hi everyone xD",
+//     projectName: "AtomicFilms",
+//     technologies: ["react", "sass", "git"],
+//     id: 15,
+//   },
+//   {
+//     linkDemo: "https://mireplicaweb.netlify.app/",
+//     linkGithub: "https://github.com/christianlazo2020/myreplicaweb.git",
+//     img:
+//       "https://i.postimg.cc/4N9wRJ0M/mireplicaweb-netlify-app-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "replication",
+//     technologies: ["html", "css", "javascript", "git"],
+//     id: 1,
+//   },
+//   {
+//     linkDemo: "https://covimap2022.netlify.app/",
+//     linkGithub: "https://github.com/christianlazo2020/covimap.git",
+//     img:
+//       "https://i.postimg.cc/JnFgKpyB/covimap2022-netlify-app-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "Covimap",
+//     technologies: ["html", "sass", "javascript", "git"],
+//     id: 2,
+//   },
+//   {
+//     linkDemo: "https://escuelademusica2022.netlify.app/",
+//     linkGithub: "https://github.com/christianlazo2020/EscuelaDeMusica.git",
+//     img: "https://i.postimg.cc/wMJyf2p5/localhost-5500-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "Music School",
+//     technologies: ["html", "sass", "javascript", "git"],
+//     id: 3,
+//   },
+//   {
+//     linkDemo: "https://todolist2050.netlify.app/",
+//     linkGithub:
+//       "https://github.com/christianlazo2020/App_GroupTask_Frontend.git",
+//     img:
+//       "https://i.postimg.cc/3Rt3v42L/todolist2050-netlify-app-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "To-Do-list",
+//     technologies: ["git", "react", "node", "mongo", "bootstrap"],
+//     id: 4,
+//   },
+//   {
+//     linkDemo: "https://crud-citas.vercel.app/",
+//     linkGithub:
+//       "https://github.com/christianlazo2020/App_Citas_Frontend.git",
+//     img: "https://i.postimg.cc/1XSYsJ82/crud-citas-vercel-app-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "Dating App",
+//     technologies: ["git", "react", "node", "mongo", "bootstrap"],
+//     id: 5,
+//   },
+//   {
+//     linkDemo: "https://apisearchmovies.netlify.app/",
+//     linkGithub: "https://github.com/christianlazo2020/ApiSearchMovies.git",
+//     img: "https://i.postimg.cc/bv4B0ZkV/localhost-3000-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "Movie-Search",
+//     technologies: ["git", "react", "bootstrap"],
+//     id: 6,
+//   },
+//   {
+//     linkDemo: "https://wikimarvelheroes.netlify.app/",
+//     linkGithub: "https://github.com/christianlazo2020/WikiHeroeMarvel.git",
+//     img: "https://i.postimg.cc/wj59pF6s/wikimarvelheroes.png",
+//     description: "Hi everyone xD",
+//     projectName: "Wiki-Marvel",
+//     technologies: ["git", "react", "bootstrap"],
+//     id: 7,
+//   },
+//   {
+//     linkDemo: "https://riackandmortyapp2021.netlify.app/",
+//     linkGithub: "https://github.com/christianlazo2020/RickAndMortyApp.git",
+//     img:
+//       "https://i.postimg.cc/7PXpqrNN/riackandmortyapp2021-netlify-app-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "Rick&Morty ",
+//     technologies: ["git", "react", "bootstrap"],
+//     id: 8,
+//   },
+//   {
+//     linkDemo: "https://reactweatherapp2050.netlify.app/",
+//     linkGithub: "https://github.com/christianlazo2020/React-Weatherapp.git",
+//     img:
+//       "https://i.postimg.cc/sX5G5JTV/reactweatherapp2050-netlify-app-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "Weather App",
+//     technologies: ["git", "react", "bootstrap"],
+//     id: 9,
+//   },
+//   {
+//     linkDemo: "https://reactrandomquotes2050.netlify.app/",
+//     linkGithub:
+//       "https://github.com/christianlazo2020/React-randomQuotes.git",
+//     img:
+//       "https://i.postimg.cc/TwbwF8HV/reactrandomquotes2050-netlify-app-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "Random Quotes",
+//     technologies: ["git", "react", "bootstrap"],
+//     id: 10,
+//   },
+//   {
+//     linkDemo: "https://landingpagefitness.netlify.app/",
+//     linkGithub:
+//       "https://github.com/christianlazo2020/LandingPageFitness.git",
+//     img:
+//       "https://i.postimg.cc/3JfZ3mxt/landingpagefitness-netlify-app-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "Landing Fitness",
+//     technologies: ["html", "css", "javascript", "git"],
+//     id: 11,
+//   },
+//   {
+//     linkDemo: "https://landingpageburger.netlify.app/",
+//     linkGithub:
+//       "https://github.com/christianlazo2020/LandingPageBurger.git",
+//     img:
+//       "https://i.postimg.cc/fRRD93mt/landingpageburger-netlify-app-Desktop.png",
+//     description: "Hi everyone xD",
+//     projectName: "Landing Burger",
+//     technologies: ["html", "css", "javascript", "git"],
+//     id: 12,
+//   },
+//   {
+//     linkDemo: "https://landingpagecoffee.netlify.app/",
+//     linkGithub:
+//       "https://github.com/christianlazo2020/Landing__Coffee__Shop.git",
+//     img: "https://i.postimg.cc/xdF0J561/landingpagecoffee-netlify-app.png",
+//     description: "Hi everyone xD",
+//     projectName: "Landing Coffee",
+//     technologies: ["html", "css", "javascript", "git"],
+//     id: 13,
+//   },
+//   {
+//     linkDemo: "https://landingwatchstore.netlify.app/",
+//     linkGithub:
+//       "https://github.com/christianlazo2020/Landing__Watch__Store.git",
+//     img: "https://i.postimg.cc/yNN18tXG/landingwatchstore-netlify-app.png",
+//     description: "Hi everyone xD",
+//     projectName: "Landing WatchStore",
+//     technologies: ["html", "css", "javascript", "git"],
+//     id: 14,
+//   },
+// ],
