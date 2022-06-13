@@ -17,6 +17,8 @@ const icons = {
   bootstrap: <Icon icon="logos:bootstrap" />,
   sass: <Icon icon="vscode-icons:file-type-sass" />,
   tailwind: <Icon icon="logos:tailwindcss-icon" />,
+  typescript: <Icon icon="logos:typescript-icon" />,
+  loopback: <Icon icon="logos:loopback-icon" />,
 };
 
 const Projects = () => {

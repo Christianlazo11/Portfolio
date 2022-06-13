@@ -22,6 +22,24 @@ export const dataPortfolio = {
         id: 2,
       },
       {
+        linkDemo: "https://migrantes2022.netlify.app/#/inicio",
+        linkGithub:
+          "https://github.com/christianlazo2020/Front_end_Migrantes_demo.git",
+        img: "https://i.postimg.cc/L6429Mx0/migrantesport.png",
+        description: "Hi everyone xD",
+        projectName: "Migrantes2022",
+        technologies: [
+          "angular",
+          "typescript",
+          "git",
+          "css",
+          "node",
+          "mongo",
+          "loopback",
+        ],
+        id: 3,
+      },
+      {
         linkDemo: "https://atomicfilms2022.netlify.app/",
         linkGithub:
           "https://github.com/christianlazo2020/React__AtomicFilms_MovieApp.git",
