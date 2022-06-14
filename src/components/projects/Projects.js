@@ -1,6 +1,7 @@
 import React from "react";
 import "./projects.css";
 import { FaGithubAlt, FaWifi } from "react-icons/fa";
+import { GiRead } from "react-icons/gi";
 import { Icon } from "@iconify/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -62,6 +63,14 @@ const Projects = () => {
                   >
                     <FaWifi className="icon" />
                     <span>Demo</span>
+                  </a>
+                  <a
+                    className="projects__right__box__a"
+                    href={item.linkGithub}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <GiRead className="icon" />
                   </a>
                   <a
                     className="projects__right__box__a"

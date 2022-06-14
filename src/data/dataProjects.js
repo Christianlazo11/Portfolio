@@ -150,6 +150,44 @@ export const dataPortfolio = {
   spanish: {
     projectsData: [
       {
+        linkDemo: "https://escape-room-smoky.vercel.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/FrontEnd_Escape_Room.git",
+        img: "https://i.postimg.cc/wMrBpvxt/escape-room.png",
+        description: "Hi everyone xD",
+        projectName: "Escape Room",
+        technologies: ["react", "git", "tailwind", "node", "mongo"],
+        id: 1,
+      },
+      {
+        linkDemo: "https://distrifiestaspinatas.netlify.app/",
+        linkGithub:
+          "https://github.com/christianlazo2020/Ecommerce-2022D-P.git",
+        img: "https://i.postimg.cc/5y3Sj9Vx/image-Dyps.png",
+        description: "Hi everyone xD",
+        projectName: "Tienda En linea",
+        technologies: ["react", "sass", "git", "bootstrap", "node", "mongo"],
+        id: 2,
+      },
+      {
+        linkDemo: "https://migrantes2022.netlify.app/#/inicio",
+        linkGithub:
+          "https://github.com/christianlazo2020/Front_end_Migrantes_demo.git",
+        img: "https://i.postimg.cc/L6429Mx0/migrantesport.png",
+        description: "Hi everyone xD",
+        projectName: "Migrantes2022",
+        technologies: [
+          "angular",
+          "typescript",
+          "git",
+          "css",
+          "node",
+          "mongo",
+          "loopback",
+        ],
+        id: 3,
+      },
+      {
         linkDemo: "https://atomicfilms2022.netlify.app/",
         linkGithub:
           "https://github.com/christianlazo2020/React__AtomicFilms_MovieApp.git",
@@ -157,17 +195,7 @@ export const dataPortfolio = {
         description: "Hi everyone xD",
         projectName: "AtomicFilms",
         technologies: ["react", "sass", "git"],
-        id: 1,
-      },
-      {
-        linkDemo: "https://mireplicaweb.netlify.app/",
-        linkGithub: "https://github.com/christianlazo2020/myreplicaweb.git",
-        img:
-          "https://i.postimg.cc/4N9wRJ0M/mireplicaweb-netlify-app-Desktop.png",
-        description: "Hi everyone xD",
-        projectName: "replication",
-        technologies: ["html", "css", "javascript", "git"],
-        id: 2,
+        id: 4,
       },
       {
         linkDemo: "https://covimap2022.netlify.app/",
@@ -177,16 +205,16 @@ export const dataPortfolio = {
         description: "Hi everyone xD",
         projectName: "Covimap",
         technologies: ["html", "sass", "javascript", "git"],
-        id: 3,
+        id: 6,
       },
       {
         linkDemo: "https://escuelademusica2022.netlify.app/",
         linkGithub: "https://github.com/christianlazo2020/EscuelaDeMusica.git",
         img: "https://i.postimg.cc/wMJyf2p5/localhost-5500-Desktop.png",
         description: "Hi everyone xD",
-        projectName: "Music School",
+        projectName: "Escuela de Música",
         technologies: ["html", "sass", "javascript", "git"],
-        id: 4,
+        id: 7,
       },
       {
         linkDemo: "https://todolist2050.netlify.app/",
@@ -195,9 +223,9 @@ export const dataPortfolio = {
         img:
           "https://i.postimg.cc/3Rt3v42L/todolist2050-netlify-app-Desktop.png",
         description: "Hi everyone xD",
-        projectName: "To-Do-list",
+        projectName: "Lista de Tareas",
         technologies: ["git", "react", "node", "mongo", "bootstrap"],
-        id: 5,
+        id: 8,
       },
       {
         linkDemo: "https://crud-citas.vercel.app/",
@@ -205,9 +233,9 @@ export const dataPortfolio = {
           "https://github.com/christianlazo2020/App_Citas_Frontend.git",
         img: "https://i.postimg.cc/1XSYsJ82/crud-citas-vercel-app-Desktop.png",
         description: "Hi everyone xD",
-        projectName: "Dating App",
+        projectName: "Aplicación de Citas",
         technologies: ["git", "react", "node", "mongo", "bootstrap"],
-        id: 6,
+        id: 9,
       },
     ],
     projectsTitle: "Todos Los Proyectos",

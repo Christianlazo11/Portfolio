@@ -3,13 +3,13 @@ import "./navbar.css";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { GrLanguage } from "react-icons/gr";
 import useGlobalData from "../../hooks/useGlobalData";
+import ToogleButton from "../button/ToogleButton";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-  const { globalData, language, setLanguage } = useGlobalData();
+  const { globalData, language } = useGlobalData();
 
   useEffect(() => {
     const changeWidth = () => {
@@ -52,13 +52,7 @@ const Navbar = () => {
         </div>
         <div className="navbar__socials">
           <div className="navbar__language">
-            <button
-              onClick={() => {
-                setLanguage(language === "english" ? "spanish" : "english");
-              }}
-            >
-              <GrLanguage />
-            </button>
+            <ToogleButton />
           </div>
           <div className="navbar__github">
             <a

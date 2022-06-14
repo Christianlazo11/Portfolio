@@ -3,7 +3,8 @@ import "./banner.css";
 import imageReact from "../../assets/img/react-image.png";
 import imageNode from "../../assets/img/node-image.png";
 import imageJs from "../../assets/img/javascript-image.png";
-import avatar from "../../assets/img/AvatarMaker.svg";
+// import avatar from "../../assets/img/AvatarMaker.svg";
+import avatar02 from "../../assets/img/AvatarChris.svg";
 import Loader from "../loader/Loader";
 import AOS from "aos";
 import useGlobalData from "../../hooks/useGlobalData";
@@ -49,7 +50,7 @@ const Home = () => {
           </a>
         </div>
         <div className="banner__right">
-          <img src={avatar} alt="avatar" className="banner__right__avatar" />
+          <img src={avatar02} alt="avatar" className="banner__right__avatar" />
           <div className="banner__right__circle banner__right__react">
             <img src={imageReact} alt="react" className="icon" />
           </div>
