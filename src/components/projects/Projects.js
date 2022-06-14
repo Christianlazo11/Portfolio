@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./projects.css";
 import { FaGithubAlt, FaWifi } from "react-icons/fa";
 import { GiRead } from "react-icons/gi";
@@ -6,6 +6,7 @@ import { Icon } from "@iconify/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import useGlobalData from "../../hooks/useGlobalData";
+import Modal from "../modal/Modal";
 const icons = {
   html: <Icon icon="vscode-icons:file-type-html" />,
   css: <Icon icon="vscode-icons:file-type-css" />,
@@ -25,6 +26,11 @@ const icons = {
 const Projects = () => {
   AOS.init();
   const { globalData, language } = useGlobalData();
+  const [viewModal, setViewModal] = useState(false);
+  const [dataModal, setDataModal] = useState({
+    title: "hola",
+    description: "hola",
+  });
 
   return (
     <div className="Projects" id="projects">
@@ -64,14 +70,18 @@ const Projects = () => {
                     <FaWifi className="icon" />
                     <span>Demo</span>
                   </a>
-                  <a
+                  <span
                     className="projects__right__box__a"
-                    href={item.linkGithub}
-                    target="_blank"
-                    rel="noreferrer"
+                    onClick={() => {
+                      setViewModal(true);
+                      setDataModal({
+                        title: item.projectName,
+                        description: item.description,
+                      });
+                    }}
                   >
                     <GiRead className="icon" />
-                  </a>
+                  </span>
                   <a
                     className="projects__right__box__a"
                     href={item.linkGithub}
@@ -87,6 +97,17 @@ const Projects = () => {
           ))}
         </div>
       </div>
+      {viewModal && (
+        <Modal
+          handleModal={setViewModal}
+          handleHeader={true}
+          title={dataModal.title}
+        >
+          <p className="overlay__modal__content__text">
+            {dataModal.description}
+          </p>
+        </Modal>
+      )}
     </div>
   );
 };

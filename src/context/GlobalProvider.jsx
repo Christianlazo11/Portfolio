@@ -9,7 +9,12 @@ export const GlobalProvider = ({ children }) => {
 
   return (
     <GlobalContext.Provider
-      value={{ globalData, setGLobalData, language, setLanguage }}
+      value={{
+        globalData,
+        setGLobalData,
+        language,
+        setLanguage,
+      }}
     >
       {children}
     </GlobalContext.Provider>
