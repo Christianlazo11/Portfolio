@@ -6,7 +6,7 @@ It only takes a few seconds to lose a visitor's attention, so make sure you use 
 
 ## Development
 
-[![Fire-Shot-Capture-002-Multi-Device-Website-Mockup-Generator-techsini-com.png](https://i.postimg.cc/jdFZMLdd/Fire-Shot-Capture-002-Multi-Device-Website-Mockup-Generator-techsini-com.png)](https://postimg.cc/2VnQ6jZP)
+[![portfolio.png](https://i.postimg.cc/MTSY4myG/portfolio.png)](https://postimg.cc/HJ6585vG)
 
 - Folder structure: modular
 

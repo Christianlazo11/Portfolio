@@ -118,7 +118,6 @@
     border-radius: 50%;
     background-color: var(--color__dark__01);
     filter: drop-shadow(-20px 20px 20px rgba(0,0,0,0.534));
-    
 }
 
 .banner__right__react {
