@@ -1,8 +1,6 @@
 
 .toogle__button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
 }
 
 .toogle__button__input {
@@ -39,6 +37,11 @@
 	transform: translateX(-100%);
 }
 
-.toogle__button__label:active:after {
-	width: 40px;
+
+@media (min-width: 550px) {
+    .toogle__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
