@@ -97,7 +97,7 @@ textarea {
         gap: 3rem;
     }
 }
-@media (max-width: 460px) {
+@media (max-width: 600px) {
     .About {
         flex-direction: column-reverse;
         gap: 3rem;
@@ -110,9 +110,7 @@ textarea {
         width: unset;
     }
     .about__cards {
-        overflow-x: scroll;
-        flex-direction: row;
-        padding: 30px 40px;
+        flex-wrap: wrap;
     }
     .about__cards::-webkit-scrollbar {
         display: none;

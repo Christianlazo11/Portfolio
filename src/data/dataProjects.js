@@ -137,7 +137,7 @@ export const dataPortfolio = {
       contentRigth: {
         text01: "Information",
         text02: "Colombia Pasto, Nariño",
-        text03: "Kenishi.cristian@hotmail.com",
+        text03: "christian-lazo-u@hotmail.com",
         text04: "3163746523",
         links: ["Home", "About", "Projects"],
       },
@@ -293,7 +293,7 @@ export const dataPortfolio = {
       contentRigth: {
         text01: "Información",
         text02: "Colombia Pasto, Nariño",
-        text03: "Kenishi.cristian@hotmail.com",
+        text03: "christian-lazo-u@hotmail.com",
         text04: "3163746523",
         links: ["Inicio", "Sobre Mi", "Proyectos"],
       },

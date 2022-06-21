@@ -97,6 +97,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
+      {/* Modal Info*/}
       {viewModal && (
         <Modal
           handleModal={setViewModal}

@@ -2,7 +2,7 @@ import React from "react";
 import "./contact.css";
 import { FaPhoneAlt } from "react-icons/fa";
 import resume__english from "../../assets/Curriculum/Resume__English.pdf";
-import resume__spanish from "../../assets/Curriculum/Resume__Español.pdf";
+import resume__spanish from "../../assets/Curriculum/Resume__Spanish.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
@@ -45,7 +45,7 @@ const Contact = () => {
                   👉🏾{globalData[language].contactData.contentLeft.text03}
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/13PWXE-K9GH-W50LxFTm1L6egYsZLHTPQ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1uVvL3KKfULsHkzCcNkcmfEHHuziVzIQ4/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="contact__left__cv"
@@ -63,7 +63,7 @@ const Contact = () => {
                   👉🏾{globalData[language].contactData.contentLeft.text03}
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1brFtxN37asf8WwNst_T7IV3N-eEOX2bi/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1rVM5TgqZdaydZMc1wa-76mh13Az0nzzs/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="contact__left__cv"

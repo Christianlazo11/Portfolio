@@ -17,6 +17,10 @@ export const dataSkills = [
     img: <Icon icon="logos:bootstrap" className="icon_program" />,
   },
   {
+    skillName: "Tailwind",
+    img: <Icon icon="logos:tailwindcss-icon" className="icon_program" />,
+  },
+  {
     skillName: "Sass",
     img: <Icon icon="vscode-icons:file-type-sass" className="icon_program" />,
   },
@@ -25,12 +29,20 @@ export const dataSkills = [
     img: <Icon icon="logos:react" className="icon_program" />,
   },
   {
+    skillName: "Angular",
+    img: <Icon icon="logos:angular-icon" className="icon_program" />,
+  },
+  {
     skillName: "Git",
     img: <Icon icon="logos:git-icon" className="icon_program" />,
   },
   {
     skillName: "NodeJs",
     img: <Icon icon="logos:nodejs-icon" className="icon_program" />,
+  },
+  {
+    skillName: "Java",
+    img: <Icon icon="logos:java" className="icon_program" />,
   },
   {
     skillName: "MongoDb",
