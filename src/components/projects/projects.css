@@ -15,7 +15,8 @@
 
 .projects__title {
     letter-spacing: 0.1rem;
-    margin: 7rem 0 10rem 7rem;
+    text-align: center;
+    padding-bottom: 3rem;
     font-size: 2.5rem;
     color: var(--color__primary);
     background:none;
