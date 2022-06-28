@@ -1,6 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import resume__english from "../../assets/Curriculum/Resume__English.pdf";
 import resume__spanish from "../../assets/Curriculum/Resume__Spanish.pdf";
 import AOS from "aos";
@@ -82,6 +83,7 @@ const Contact = () => {
             {globalData[language].contactData.contentRigth.text02}
           </p>
           <p className="contact__right__email">
+            <MdEmail className="icon" />
             {globalData[language].contactData.contentRigth.text03}
           </p>
           <p className="contact__right__phone">

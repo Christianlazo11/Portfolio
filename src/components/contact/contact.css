@@ -53,19 +53,15 @@
     font-size: 2.5rem;
 }
 .contact__right__email {
-    font-size: 4.5rem;
-    padding: 2rem 0 4rem 0;
+    font-size: 3.5rem;
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
 }
 .contact__right__phone {
-    font-size: 3.5rem;
-}
-.contact__right__phone .icon {
-    font-size: 1.5rem;
-    margin-right: 0.5rem;
-    cursor: pointer;
-}
-.contact__right__phone .icon:hover {
-    fill: var(--color__primary);
+    display: flex;
+    gap: 1rem;
+    font-size: 2.8rem;
 }
 .contact__right__ul {
     list-style: none;
