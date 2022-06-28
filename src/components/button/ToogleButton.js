@@ -8,14 +8,23 @@ const ToogleButton = () => {
     setLanguage(language === "english" ? "spanish" : "english");
   };
   return (
-    <div className="toogle__button">
-      <input
-        className="toogle__button__input"
-        type="checkbox"
-        id="switch"
-        onChange={() => handleChange()}
-      />
-      <label className="toogle__button__label" htmlFor="switch"></label>
+    <div className="switch__container">
+      <div className="switch__item">
+        <label class="switch__content">
+          <input type="checkbox" onChange={() => handleChange()} />
+          <span class="slider"></span>
+        </label>{" "}
+        <span className="switch__text">
+          {language === "english" ? "EN" : "ES"}
+        </span>
+      </div>
+      <div className="switch__item">
+        <label class="switch__content">
+          <input type="checkbox" />
+          <span class="slider"></span>
+        </label>{" "}
+        <span className="switch__text">Dark</span>
+      </div>
     </div>
   );
 };

@@ -132,7 +132,8 @@
         flex-wrap: wrap;
     }
     .projects__img {
-        max-width:34rem;
+        max-width:40rem;
+        width: 100%;
     }
     .projects__btn {
         margin: 0 0 5rem 7rem;
@@ -147,13 +148,14 @@
         padding: 5rem 5rem 5rem 5rem;
     }
     .projects__img {
-        width: 30rem;
+        max-width:50rem;
+        width:100%;
     }
 }
 
 @media(max-width: 700px) {
     .projects__img {
-        width: 50rem;
+        max-width: 45rem;
     }
 }
 @media (max-width: 460px) {
