@@ -15,9 +15,7 @@ const ToogleButton = () => {
         id="switch"
         onChange={() => handleChange()}
       />
-      <label className="toogle__button__label" htmlFor="switch">
-        Toggle
-      </label>
+      <label className="toogle__button__label" htmlFor="switch"></label>
     </div>
   );
 };

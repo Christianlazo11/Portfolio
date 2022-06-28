@@ -1,14 +1,10 @@
-.About {
+.about {
     width: 100%;
     background: var(--color__dark__01);
-    padding: 150px;
+    padding: 15rem;
     display: flex;
     gap: 5rem;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-}
-
-textarea {
-    resize: none;
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.3);
 }
 
 .about__left {
@@ -20,13 +16,13 @@ textarea {
     gap: 3rem;
 }
 .about__card {
-    padding: 50px 70px;
-    border-radius: 10px;
+    padding: 5rem 7rem;
+    border-radius: 1rem;
     background: var(--color__dark__02);
-    filter: drop-shadow(10px 0 20px black);
+    filter: drop-shadow(1rem 0 2rem black);
 }
 .about__card:hover {
-    filter: drop-shadow(0 0 2px black);
+    filter: drop-shadow(0 0 0.2rem black);
 }
 .about__card:hover .card__title {
     color: var(--color__primary);
@@ -37,7 +33,7 @@ textarea {
     justify-content:space-between;
 }
 .card__title {
-    font-size: 35px;
+    font-size: 3.5rem;
 }
 .card__icon {
     font-size: 1.5rem;
@@ -45,7 +41,7 @@ textarea {
 }
 .card__desc {
     color: var(--color__gray__dark);
-    padding: 10px 0px 30px 0px;
+    padding: 1rem 0rem 3rem 0rem;
 }
 .card__link {
     text-transform: uppercase;
@@ -55,53 +51,59 @@ textarea {
 }
 .about__subtitle {
     color: var(--color__gray__dark);
-    font-size: 22px;
+    font-size: 2.2rem;
 }
 .about__title {
-    font-size: 60px;
-    padding: 50px 0px;
+    font-size: 6rem;
+    padding: 5rem 0rem;
 }
 .about__info {
     font-style: italic;
-    font-size: 30px;
-    padding-bottom: 30px;
+    font-size: 3rem;
+    padding-bottom: 3rem;
 }
 .about__desc {
     color: var(--color__gray__dark);
-    font-size: 22px;
-    line-height: 35px;
+    font-size: 2.2rem;
+    line-height: 3.5rem;
 }
 @media (max-width: 1024px) {
-    .About {
+    .about {
         height: unset;
-        padding: 100px 40px;
+        padding: 10rem 4rem;
     }
     .about__title {
-        font-size: 50px;
+        font-size: 5rem;
     }
     .about__info {
-        font-size: 25px;
-        padding-bottom: 20px;
+        font-size: 2.5rem;
+        padding-bottom: 2rem;
     }
     .about__desc {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 1.8rem;
+        line-height: 3rem;
     }
     .about__card {
-        padding: 30px 50px;
+        padding: 3rem 5rem;
     }
 }
 
 @media (max-width: 768px) {
-    .About {
+    .about {
         gap: 3rem;
     }
 }
-@media (max-width: 600px) {
-    .About {
+@media (max-width: 650px) {
+    .about {
         flex-direction: column-reverse;
-        gap: 3rem;
-        padding: 100px 20px;
+        align-items:center;
+        text-align: center;
+    }
+    .about__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
     .about__right {
         width: unset;
@@ -116,9 +118,9 @@ textarea {
         display: none;
     }
     .about__card {
-        padding: 30px;
+        padding: 3rem;
     }
     .card__top {
-        width:250px;
+        width:20rem;
     }
 }

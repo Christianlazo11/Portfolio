@@ -21,7 +21,7 @@ const Home = () => {
   return load ? (
     <Loader />
   ) : (
-    <div className="Banner" id="home">
+    <div className="banner" id="home">
       <div
         className="banner__container"
         data-aos="zoom-in"

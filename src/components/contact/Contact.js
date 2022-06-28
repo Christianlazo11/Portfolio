@@ -13,7 +13,7 @@ const Contact = () => {
   const { globalData, language } = useGlobalData();
 
   return (
-    <div className="Contact" id="contact">
+    <div className="contact" id="contact">
       <div
         className="contact__container"
         data-aos="fade-up"

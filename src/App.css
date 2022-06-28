@@ -18,18 +18,23 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Rubik', sans-serif;
-  color: var(--color__white); 
+}
+
+html {
+  font-size: 62.5%;
   scroll-behavior: smooth;
-  transition: all 0.2s linear;
 }
 
 body {
   background-color: var(--color__dark__01);
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.8rem;
+  color: var(--color__white); 
+  transition: all 0.2s linear;
 }
 
 html::-webkit-scrollbar {
-  width: 0.3rem;
+  width: 0.6rem;
 }
 
 html::-webkit-scrollbar-track {
@@ -43,5 +48,5 @@ html::-webkit-scrollbar-thumb {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1440px;
+  max-width: 144rem;
 }

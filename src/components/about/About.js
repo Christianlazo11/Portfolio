@@ -10,7 +10,7 @@ const About = () => {
   const { globalData, language } = useGlobalData();
 
   return (
-    <div className="About" id="about">
+    <div className="about" id="about">
       <div className="about__left">
         <div className="about__cards">
           <div
