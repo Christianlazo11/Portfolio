@@ -1,8 +1,8 @@
 .navbar {
     width:100%;
-    padding: 30px 100px;
+    padding: 3rem 10rem;
     background-color: var(--color__dark__02);
-    z-index: 100;
+    z-index: 10;
 }
 
 .navbar__nav {
@@ -10,12 +10,12 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 50px;
+    height: 5rem;
 }
 
 .logo {
     display: flex;
-    font-size: 30px;
+    font-size: 3rem;
     cursor: pointer;
 }
 
@@ -40,7 +40,7 @@
 @keyframes myAnim {
 	0% {
 		opacity: 0;
-		transform: translateY(-50px);
+		transform: translateY(-5rem);
 	}
 
 	100% {
@@ -58,8 +58,8 @@
 }
 
 .links {
-    margin-right: 25px;
-    font-size: 16px;
+    margin-right: 2.5rem;
+    font-size: 1.8rem;
     cursor: pointer;
     padding: 0.7rem 0;
 }
@@ -67,19 +67,20 @@
 .menuIcons {
     display: none;
     position: absolute;
-    right: 20px;
-    top: 42px;
-    font-size: 1.5rem;
+    right: 2rem;
+    top: 4.2rem;
+    font-size: 2rem;
 }
 
 
 .menuIcons:hover {
     opacity: 0.8;
     cursor: pointer;
+
 }
 
 .menu__icon {
-    width: 20px;
+    width: 2rem;
 }
 
 .navbar__socials {
@@ -107,7 +108,7 @@
 
 
 .navbar__item {
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
 }
 .navbar__item:hover {
@@ -118,21 +119,21 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    padding: 15px;
+    padding: 1.5rem;
     border-radius: 50%;
-    width: 55px;
+    width: 5.5rem;
     cursor: pointer;
 }
 
 @media (max-width: 1024px) {
     .navbar {
-        padding: 30px 100px 30px 30px;
+        padding: 3rem 10rem 3rem 3rem;
     }
 
     .list {
         position: absolute;
         left: 0;
-        top: 110px;
+        top: 11rem;
         width: 100%;
         flex-direction: column;
         height: auto;
@@ -159,11 +160,11 @@
 
 @media (max-width: 768px) {
     .navbar {
-        padding: 30px 50px;
+        padding: 3rem 5rem;
     }
     .logo {
-        font-size: 25px;
-        margin-right: 50px;
+        font-size: 2.5rem;
+        margin-right: 5rem;
     }
     .navbar__socials {
         justify-content: unset;
@@ -175,10 +176,10 @@
 
     @media(max-width: 450px) {
         .navbar {
-            padding: 30px 60px 30px 30px;
+            padding: 3rem 6rem 3rem 3rem;
         }
         .logo {
-            margin-right:15px;
+            margin-right:1.5rem;
         }
     }
 }

@@ -10,7 +10,7 @@ const Skill = () => {
   const { globalData, language } = useGlobalData();
 
   return (
-    <div className="Skills" id="#skills">
+    <div className="skills" id="#skills">
       <h2>{globalData[language].skillsTitle}</h2>
       <div className="skills__container">
         {dataSkills.map((item, index) => (

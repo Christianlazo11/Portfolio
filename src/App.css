@@ -25,6 +25,10 @@ html {
   scroll-behavior: smooth;
 }
 
+a {
+  color: var(--color__white);
+}
+
 body {
   background-color: var(--color__dark__01);
   font-family: 'Rubik', sans-serif;

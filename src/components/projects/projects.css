@@ -1,8 +1,8 @@
-.Projects {
+.projects {
     width: 100%;
-    padding: 50px 0px;
+    padding: 0rem 0 0 5rem;
     background: var(--color__dark__01);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.3);
 } 
 
 .projects__container {
@@ -13,27 +13,24 @@
     justify-content:center;
 }
 
-.projects__btn {
-    letter-spacing: 1px;
-    margin: 70px 0 100px 70px;
-    font-size: 25px;
+.projects__title {
+    letter-spacing: 0.1rem;
+    margin: 7rem 0 10rem 7rem;
+    font-size: 2.5rem;
     color: var(--color__primary);
     background:none;
-    text-transform: uppercase;
     outline:none;
     border: none;
-    border-bottom: 2px solid var(--color__primary);
-    cursor: pointer;
 }
 .projects__btn:hover {
     color: var(--color__white);
-    border-bottom: 2px solid var(--color__white);
+    border-bottom: 0.2rem solid var(--color__white);
 }
 .projects__right__box {
     height: 100%;
     overflow: hidden;
     position: relative;
-    border-radius: 10px;
+    border-radius: 1rem;
     background-color: transparent;
     margin-bottom: 2.5rem;
 }
@@ -42,7 +39,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 .projects__right__box:hover  .projects__right__box__content{
     transform: translateY(0);
@@ -53,10 +50,10 @@
     left: 0;
     right: 0;
     background: var(--color__black);
-    padding: 1.5rem;
-    transform: translateY(14rem);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    padding: 2rem;
+    transform: translateY(15rem);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -65,10 +62,11 @@
 .projects__right__box__buttons {
     display: flex;
     justify-content:space-around;
+    padding: 1rem 0;
 }
 .projects__right__box__a {
     padding: 0.5rem 1.2rem;
-    border-radius: 10px;
+    border-radius: 1rem;
     background-color: var(--color__dark__01);
     cursor: pointer;
     display: flex;
@@ -81,9 +79,8 @@
     fill: var(--color__primary);
 }
 .projects__img {
-    border-radius: 10px;
-    filter: drop-shadow(10px 0 20px black);
-    cursor: pointer;
+    border-radius: 1rem;
+    filter: drop-shadow(1rem 0 2rem black);
 }
 
 .projects__right {
@@ -92,13 +89,14 @@
 @media (min-width:1025px) {
     .projects__container {
         width: 100%;
-        padding: 50px 25px 50px 25px;
+        padding: 5rem 2.5rem 5rem 2.5rem;
         flex-direction: column;
     }
     .projects__right {
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 2rem;
         flex-wrap: wrap;
     }
     
@@ -106,22 +104,22 @@
         padding-left: 0;
     }
     .projects__left__subtitle {
-        padding: 20px 0 50px 0;
+        padding: 2rem 0 5rem 0;
     }
     .projects__img {
-        width:420px;
+        width:42rem;
     }
     .projects__btn {
-        margin: 0 0 50px 70px;
+        margin: 0 0 5rem 7rem;
     }
     .projects__left__extra{
-        padding: 0 50px 0 70px;
+        padding: 0 5rem 0 7rem;
     }
 }
 @media (max-width:1024px) {
     .projects__container {
         width: 100%;
-        padding: 50px 25px 50px 25px;
+        padding: 5rem 2.5rem 5rem 2.5rem;
         flex-direction: column;
     }
 
@@ -132,51 +130,51 @@
         flex-wrap: wrap;
     }
     .projects__img {
-        width:340px;
+        max-width:34rem;
     }
     .projects__btn {
-        margin: 0 0 50px 70px;
+        margin: 0 0 5rem 7rem;
     }
     .projects__left__extra{
-        padding: 0 50px 0 70px;
+        padding: 0 5rem 0 7rem;
     }
 }
 @media (max-width: 768px) {
     .projects__container {
         width: 100%;
-        padding: 50px 50px 50px 50px;
+        padding: 5rem 5rem 5rem 5rem;
     }
     .projects__img {
-        width: 300px;
+        width: 30rem;
     }
 }
 
 @media(max-width: 700px) {
     .projects__img {
-        width: 450px;
+        width: 45rem;
         margin: 1rem auto;
     }
 }
 @media (max-width: 460px) {
     .projects__container {
         flex-direction: column;
-        padding: 50px 0px;
+        padding: 5rem 0rem;
     }
     .projects__right {
         width: 100%;
         text-align: center;
     }
     .projects__btn {
-        margin: 0 0 50px 0;
+        margin: 0 0 5rem 0;
     }
     .projects__img {
-        width: 330px;
+        width: 33rem;
         margin: 1rem auto;
     }
 }
 @media (max-width: 360px) {
     .projects__img {
-        width: 300px;
+        width: 30rem;
     }
     .projects__right__box__buttons {
         flex-wrap: wrap;

@@ -33,11 +33,11 @@ const Projects = () => {
   });
 
   return (
-    <div className="Projects" id="projects">
+    <div className="projects" id="projects">
       <div className="projects__container">
-        <button className="projects__btn">
+        <h2 className="projects__title">
           {globalData[language].projectsTitle}
-        </button>
+        </h2>
         <div className="projects__right">
           {globalData[language].projectsData.map((item) => (
             <div

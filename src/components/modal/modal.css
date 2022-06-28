@@ -9,26 +9,26 @@
     justify-content:center;
     align-items: center;
     padding: 4rem;
-    z-index: 10000;
+    z-index: 11;
 }
 
 .overlay__container {
-    width: 400px;
-    min-height: 100px;
+    width: 40rem;
+    min-height: 10rem;
     background: var(--color__dark__01);
     position:relative;
-    border-radius: 5px;
-    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
-    padding: 40px;
+    border-radius: .5rem;
+    box-shadow: rgba(100,100,111,0.2) 0 0.7rem 2.9rem 0;
+    padding: 4rem;
 }
 
 .overlay__modal__top {
     display: flex;
     align-items:center;
     justify-content: space-between;
-    border-bottom: 1px solid #E8E8E8;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    border-bottom: 0.1rem solid #E8E8E8;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .overlay__container__title {
@@ -37,13 +37,13 @@
 
 .overlay__container__button {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 0.5rem;
+    right: 0.5rem;
     cursor: pointer;
     border: none;
     background: none;
     transition: .3s ease all;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     padding: 0.5rem;
     display: flex;
     justify-content:center;
@@ -56,7 +56,7 @@
 .overlay__container__button .close {
     fill: #64f4ac;
     transform: rotate(45deg);
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .overlay__modal__content {
@@ -67,16 +67,22 @@
     padding: 0.5rem;
 }
 .overlay__modal__content__text{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .overlay__modal__content__text {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 450px) {
     .overlay__modal__content__text {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
     .overlay__container {
-        padding: 25px 15px;
+        padding: 2.5rem 1.5rem;
     }
     
 }

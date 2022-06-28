@@ -18,8 +18,8 @@
 }
 
 .footer__name {
-    font-size: 30px;
-    padding-right: 30px;
+    font-size: 3rem;
+    padding-right: 3rem;
 }
 
 .footer__name > span {
@@ -34,11 +34,11 @@
     gap: 1rem;
 }
 .footer__socials_icons {
-    width: 20px;
+    width: 2rem;
     cursor: pointer;
 }
 .footer__socials_icons * {
-    font-size: 1.4rem;
+    font-size: 2.2rem;
 }
 
 @media (max-width: 768px) {
