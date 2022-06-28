@@ -52,6 +52,7 @@ const Projects = () => {
                 src={item.img}
                 className="projects__img"
                 alt={item.projectName}
+                loading="lazy"
               />
               <div className="projects__right__box__content">
                 <span className="projects__right__box__span">

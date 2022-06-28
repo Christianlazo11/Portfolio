@@ -69,7 +69,7 @@
     position: absolute;
     right: 2rem;
     top: 4.2rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 
@@ -103,12 +103,12 @@
 }
 
 .navbar__language * {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 
 .navbar__item {
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     cursor: pointer;
 }
 .navbar__item:hover {
@@ -119,15 +119,13 @@
     display: flex;
     justify-content:center;
     align-items: center;
-    padding: 1.5rem;
     border-radius: 50%;
-    width: 5.5rem;
     cursor: pointer;
 }
 
 @media (max-width: 1024px) {
     .navbar {
-        padding: 3rem 10rem 3rem 3rem;
+        padding: 3rem 8rem 3rem 1.5rem;
     }
 
     .list {
