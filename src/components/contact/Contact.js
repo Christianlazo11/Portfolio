@@ -63,7 +63,7 @@ const Contact = () => {
                   👉🏾{globalData[language].contactData.contentLeft.text03}
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1rVM5TgqZdaydZMc1wa-76mh13Az0nzzs/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1w3azdafsyLML24pwaavYkZOnV1ds3bq3/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="contact__left__cv"
