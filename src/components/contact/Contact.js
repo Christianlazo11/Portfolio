@@ -1,11 +1,12 @@
 import React from "react";
 import "./contact.css";
-import { FaPhoneAlt } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
-import resume__english from "../../assets/Curriculum/Resume__English.pdf";
-import resume__spanish from "../../assets/Curriculum/Resume__Spanish.pdf";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { curriculum } from "../../data/curriculum";
+
 import { Link } from "react-router-dom";
 import useGlobalData from "../../hooks/useGlobalData";
 
@@ -39,7 +40,7 @@ const Contact = () => {
             {language === "english" ? (
               <>
                 <a
-                  href={resume__english}
+                  href={curriculum.english}
                   download="Resume_Christian_Lazo"
                   className="contact__left__cv"
                 >
@@ -57,7 +58,7 @@ const Contact = () => {
             ) : (
               <>
                 <a
-                  href={resume__spanish}
+                  href={curriculum.spanish}
                   download="Resume_Christian_Lazo"
                   className="contact__left__cv"
                 >

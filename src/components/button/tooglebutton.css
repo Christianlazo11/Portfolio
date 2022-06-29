@@ -37,7 +37,7 @@
   left: 0;
   right: 0;
   border-radius: 1.5rem;
-  box-shadow: 0 0 0 0.2rem #777, 0 0 0.4rem #777;
+  box-shadow: 0 0 0 0.2rem var(--color__gray__dark), 0 0 0.4rem var(--color__gray__dark);
   cursor: pointer;
   border: 0.4rem solid transparent;
   overflow: hidden;
@@ -50,7 +50,7 @@
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #777;
+  background-color: var(--color__gray__dark);
   border-radius: 1.5rem;
   transform: translateX(-1.5rem); /*translateX(-(w-h))*/
   transition: 0.2s;
@@ -71,11 +71,6 @@
   box-shadow: 0 0 0 0.2rem var(--color__primary), 0 0 0.8rem var(--color__primary);
 }
 
-.switch200 .slider:before
-{
-  width: 200%;
-  transform: translateX(-8.2rem); /*translateX(-(w-h))*/
-}
 
 @media (max-width: 600px) {
 	.switch__container {

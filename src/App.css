@@ -54,3 +54,11 @@ html::-webkit-scrollbar-thumb {
   margin-right: auto;
   max-width: 144rem;
 }
+
+.theme__dark {
+  background-color: var(--color__dark__02);
+}
+
+.theme__light {
+  background-color: var(--color__gray__dark);
+}

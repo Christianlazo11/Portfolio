@@ -54,39 +54,31 @@ const SendEmail = () => {
         validate={(valores) => {
           let errors = {};
           if (!valores.name) {
-            if (language === "english") {
-              errors.name = "Please enter your name";
-            } else {
-              errors.name = "Por favor ingrese su nombre";
-            }
+            language === "english"
+              ? (errors.name = "Please enter your name")
+              : (errors.name = "Por favor ingrese su nombre");
           } else if (!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(valores.name)) {
             errors.name = "The name can only contain letters and spaces";
           }
           if (!valores.email) {
-            if (language === "english") {
-              errors.email = "Please enter your email";
-            } else {
-              errors.email = "Por favor ingrese su correo";
-            }
+            language === "english"
+              ? (errors.email = "Please enter your email")
+              : (errors.email = "Por favor ingrese su correo");
           } else if (
             !/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(
               valores.email
             )
           ) {
-            if (language === "english") {
-              errors.email =
-                "Mail can only contain letters, periods and underscores.";
-            } else {
-              errors.email =
-                "El correo sólo puede contener letras, puntos y guiones bajos.";
-            }
+            language === "english"
+              ? (errors.email =
+                  "Mail can only contain letters, periods and underscores.")
+              : (errors.email =
+                  "El correo sólo puede contener letras, puntos y guiones bajos.");
           }
           if (!valores.message) {
-            if (language === "english") {
-              errors.message = "Please enter a message";
-            } else {
-              errors.message = "Por favor ingrese un mensaje";
-            }
+            language === "english"
+              ? (errors.message = "Please enter a message")
+              : (errors.message = "Por favor ingrese un mensaje");
           }
 
           return errors;

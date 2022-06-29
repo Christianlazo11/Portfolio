@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./navbar.css";
+
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+
 import useGlobalData from "../../hooks/useGlobalData";
 import ToogleButton from "../button/ToogleButton";
 

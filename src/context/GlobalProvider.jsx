@@ -6,6 +6,11 @@ const GlobalContext = createContext({});
 export const GlobalProvider = ({ children }) => {
   const [globalData, setGLobalData] = useState(dataPortfolio);
   const [language, setLanguage] = useState("english");
+  const [theme, setTheme] = useState("dark");
+
+  const handleTheme = function () {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
 
   return (
     <GlobalContext.Provider
@@ -14,6 +19,8 @@ export const GlobalProvider = ({ children }) => {
         setGLobalData,
         language,
         setLanguage,
+        theme,
+        handleTheme,
       }}
     >
       {children}

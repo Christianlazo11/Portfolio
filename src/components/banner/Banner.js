@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./banner.css";
-import imageReact from "../../assets/img/react-image.png";
-import imageNode from "../../assets/img/node-image.png";
-import imageJs from "../../assets/img/javascript-image.png";
-import avatar02 from "../../assets/img/AvatarChris.svg";
+
+import { images } from "../../data/images";
+
 import Loader from "../loader/Loader";
 import AOS from "aos";
 import useGlobalData from "../../hooks/useGlobalData";
@@ -12,7 +11,7 @@ const Home = () => {
   AOS.init();
 
   const [load, setLoad] = useState(true);
-  const { globalData, language } = useGlobalData();
+  const { globalData, language, theme } = useGlobalData();
 
   setTimeout(() => {
     setLoad(false);
@@ -20,7 +19,10 @@ const Home = () => {
   return load ? (
     <Loader />
   ) : (
-    <div className="banner" id="home">
+    <div
+      className={`banner ${theme === "dark" ? "theme__dark" : "theme__light"}`}
+      id="home"
+    >
       <div
         className="banner__container"
         data-aos="zoom-in"
@@ -49,16 +51,25 @@ const Home = () => {
           </a>
         </div>
         <div className="banner__right">
-          <img src={avatar02} alt="avatar" className="banner__right__avatar" />
+          <img
+            src={images.avatar}
+            alt="avatar"
+            className="banner__right__avatar"
+          />
           <div className="banner__right__circle banner__right__react">
-            <img src={imageReact} alt="react" className="icon" loading="lazy" />
+            <img
+              src={images.react}
+              alt="react"
+              className="icon"
+              loading="lazy"
+            />
           </div>
           <div className="banner__right__circle banner__right__node">
-            <img src={imageNode} alt="node" className="icon" loading="lazy" />
+            <img src={images.node} alt="node" className="icon" loading="lazy" />
           </div>
           <div className="banner__right__circle banner__right__javascript">
             <img
-              src={imageJs}
+              src={images.javascript}
               alt="javascript"
               className="icon"
               loading="lazy"
