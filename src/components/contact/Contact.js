@@ -12,10 +12,13 @@ import useGlobalData from "../../hooks/useGlobalData";
 
 const Contact = () => {
   AOS.init();
-  const { globalData, language } = useGlobalData();
+  const { globalData, language, theme } = useGlobalData();
 
   return (
-    <div className="contact" id="contact">
+    <div
+      className={`contact ${theme === "dark" ? "theme__dark" : "theme__light"}`}
+      id="contact"
+    >
       <div
         className="contact__container"
         data-aos="fade-up"

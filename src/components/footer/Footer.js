@@ -4,10 +4,14 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 import useGlobalData from "../../hooks/useGlobalData";
 
 const Footer = () => {
-  const { globalData, language } = useGlobalData();
+  const { globalData, language, theme } = useGlobalData();
 
   return (
-    <div className="footer container">
+    <div
+      className={`footer container ${
+        theme === "dark" ? "theme__dark" : "theme__light"
+      }`}
+    >
       <div className="footer__content">
         <div className="footer__right">
           <p className="footer__name">

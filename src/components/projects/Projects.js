@@ -13,7 +13,7 @@ import Modal from "../modal/Modal";
 
 const Projects = () => {
   AOS.init();
-  const { globalData, language } = useGlobalData();
+  const { globalData, language, theme } = useGlobalData();
   const [viewModal, setViewModal] = useState(false);
   const [dataModal, setDataModal] = useState({
     title: "hola",
@@ -21,7 +21,12 @@ const Projects = () => {
   });
 
   return (
-    <div className="projects" id="projects">
+    <div
+      className={`projects ${
+        theme === "dark" ? "theme__dark" : "theme__light"
+      }`}
+      id="projects"
+    >
       <div className="projects__container">
         <h2 className="projects__title">
           {globalData[language].projectsTitle}

@@ -1,6 +1,5 @@
 .about {
     width: 100%;
-    background: var(--color__dark__01);
     padding: 15rem;
     display: flex;
     gap: 5rem;
@@ -18,7 +17,6 @@
 .about__card {
     padding: 5rem 7rem;
     border-radius: 1rem;
-    background: var(--color__dark__02);
     filter: drop-shadow(1rem 0 2rem black);
 }
 .about__card:hover {

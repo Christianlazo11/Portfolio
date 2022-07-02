@@ -1,6 +1,5 @@
 .footer {
     width: 100%;
-    background-color: var(--color__dark__01);
 }
 .footer__content {
     width: 90%;
@@ -34,11 +33,11 @@
     gap: 1rem;
 }
 .footer__socials_icons {
-    width: 2rem;
     cursor: pointer;
 }
 .footer__socials_icons * {
-    font-size: 2.2rem;
+    font-size: 3.5rem;
+    gap: 2rem;
 }
 
 @media (max-width: 768px) {
@@ -46,6 +45,10 @@
         flex-direction: column;
         justify-content: center;
         align-items:center;
-        gap: 0.5rem;
+        gap: 0.8rem;
+    }
+
+    .footer__name {
+        padding-right: 0;
     }
 }

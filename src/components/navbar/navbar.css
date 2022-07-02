@@ -1,8 +1,8 @@
 .navbar {
     width:100%;
-    padding: 3rem 10rem;
     background-color: var(--color__dark__02);
     z-index: 10;
+    padding: 2rem 0;
 }
 
 .navbar__nav {
@@ -11,6 +11,7 @@
     justify-content: space-between;
     width: 100%;
     height: 5rem;
+    padding: 3rem 10rem;
 }
 
 .logo {
@@ -68,7 +69,7 @@
     display: none;
     position: absolute;
     right: 2rem;
-    top: 4.2rem;
+    top: 3.8rem;
     font-size: 2.2rem;
 }
 
@@ -123,8 +124,13 @@
     cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+    .navbar__nav {
+        padding: 3rem 8rem 3rem 2.5rem;
+    }
+}
 @media (max-width: 1024px) {
-    .navbar {
+    .navbar__nav {
         padding: 3rem 8rem 3rem 1.5rem;
     }
 
@@ -157,7 +163,7 @@
 }
 
 @media (max-width: 768px) {
-    .navbar {
+    .navbar__nav {
         padding: 3rem 5rem;
     }
     .logo {
@@ -173,7 +179,7 @@
     }
 
     @media(max-width: 450px) {
-        .navbar {
+        .navbar__nav {
             padding: 3rem 6rem 3rem 3rem;
         }
         .logo {

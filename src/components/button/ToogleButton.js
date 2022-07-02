@@ -21,7 +21,7 @@ const ToogleButton = () => {
       </div>
       <div className="switch__item">
         <label className="switch__content">
-          <input type="checkbox" onChange={() => alert("En Desarrollo")} />
+          <input type="checkbox" onChange={() => handleTheme()} />
           <span className="slider"></span>
         </label>{" "}
         <span className="switch__text">Dark</span>

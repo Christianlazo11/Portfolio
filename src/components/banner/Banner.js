@@ -10,8 +10,8 @@ import useGlobalData from "../../hooks/useGlobalData";
 const Home = () => {
   AOS.init();
 
-  const [load, setLoad] = useState(true);
   const { globalData, language, theme } = useGlobalData();
+  const [load, setLoad] = useState(true);
 
   setTimeout(() => {
     setLoad(false);

@@ -1,7 +1,6 @@
 .skills {
     width: 100%;
     padding: 5rem 5rem;
-    background: var(--color__dark__01);
     border-bottom: 0.2rem solid rgba(0, 0, 0, 0.3);
 }
 .skills h2 {
@@ -9,10 +8,10 @@
     margin-bottom: 2rem;
     color: var(--color__primary);
     text-transform: capitalize;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 .skills__container {
-    width: 65%;
+    width: 90%;
     margin: 0 auto;
     display:flex;
     justify-content: center;
@@ -37,5 +36,11 @@
 @media (max-width: 768px) {
     .skills__container {
         width: 95%;
+    }
+}
+
+@media (max-width: 450px) {
+    .skills h2 {
+        font-size: 2.5rem;
     }
 }

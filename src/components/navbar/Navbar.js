@@ -24,8 +24,8 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className="navbar container">
-      <nav className="navbar__nav">
+    <div className="navbar">
+      <nav className="navbar__nav container">
         <div className="logo">
           <Link to="/" className="logo__span">
             Christian Lazo

@@ -1,6 +1,5 @@
 .contact {
     width: 100%;
-    background: var(--color__dark__01);
     padding:10rem;
     border-bottom: 0.2rem solid rgba(0, 0, 0, 0.3);
 }

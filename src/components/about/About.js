@@ -7,14 +7,19 @@ import useGlobalData from "../../hooks/useGlobalData";
 
 const About = () => {
   AOS.init();
-  const { globalData, language } = useGlobalData();
+  const { globalData, language, theme } = useGlobalData();
 
   return (
-    <div className="about" id="about">
+    <div
+      className={`about ${theme === "dark" ? "theme__dark" : "theme__light"}`}
+      id="about"
+    >
       <div className="about__left">
         <div className="about__cards">
           <div
-            className="about__card"
+            className={`about__card ${
+              theme === "dark" ? "bg__dark" : "bg__light"
+            }`}
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-once="false"
@@ -35,7 +40,9 @@ const About = () => {
           </div>
           {/* card */}
           <div
-            className="about__card"
+            className={`about__card ${
+              theme === "dark" ? "bg__dark" : "bg__light"
+            }`}
             data-aos="fade-up"
             data-aos-offset="200"
             data-aos-once="false"

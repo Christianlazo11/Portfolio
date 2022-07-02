@@ -7,10 +7,13 @@ import useGlobalData from "../../hooks/useGlobalData";
 
 const Skill = () => {
   AOS.init();
-  const { globalData, language } = useGlobalData();
+  const { globalData, language, theme } = useGlobalData();
 
   return (
-    <div className="skills" id="#skills">
+    <div
+      className={`skills ${theme === "dark" ? "theme__dark" : "theme__light"}`}
+      id="#skills"
+    >
       <h2>{globalData[language].skillsTitle}</h2>
       <div className="skills__container">
         {dataSkills.map((item, index) => (
