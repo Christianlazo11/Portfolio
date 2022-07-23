@@ -193,6 +193,8 @@
     }
 }
 @media (min-width: 1025px) {
+
+
     .banner__right::before {
         bottom:65%;
         right:5%;

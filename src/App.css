@@ -4,7 +4,7 @@
 
 :root {
   --color__primary: #64f4ac;
-  --color__secondary: #fff;
+  --color__secondary: #fff; 
   --color__green__dark: #63f0a9;
   --color__white: #fff;
   --color__black: #111;
@@ -59,7 +59,7 @@ html::-webkit-scrollbar-thumb {
 
 .theme__light {
   /* background-color: var(--color__gray__light); */
-  background-color: var(--color__white);
+  background-color: var(--color__gray__light);
   color: black;
 }
 
