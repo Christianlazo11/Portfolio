@@ -50,7 +50,7 @@ const Contact = () => {
                   👉🏾{globalData[language].contactData.contentLeft.text03}
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1uVvL3KKfULsHkzCcNkcmfEHHuziVzIQ4/view?usp=sharing"
+                  href="https://drive.google.com/file/d/11H7LsLbGL9sPzNxkRcyfCIiD6Ztw1q1k/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="contact__left__cv"
@@ -68,7 +68,7 @@ const Contact = () => {
                   👉🏾{globalData[language].contactData.contentLeft.text03}
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1w3azdafsyLML24pwaavYkZOnV1ds3bq3/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1K9a--SnzOO9t-DhsetdRoYUmhlJ6Rut9/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="contact__left__cv"
