@@ -19,13 +19,13 @@ const ToogleButton = () => {
           {language === "english" ? "EN" : "ES"}
         </span>
       </div>
-      <div className="switch__item">
+      {/* <div className="switch__item">
         <label className="switch__content">
           <input type="checkbox" onChange={() => handleTheme()} />
           <span className="slider"></span>
         </label>{" "}
         <span className="switch__text">Dark</span>
-      </div>
+      </div> */}
     </div>
   );
 };
