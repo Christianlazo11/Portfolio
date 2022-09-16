@@ -112,12 +112,12 @@ export const dataPortfolio = {
       card01: {
         title: "Desing",
         span: "Create digital products with unique ideas",
-        text: "10 Projects",
+        text: "3 Projects",
       },
       card02: {
         title: "Front End",
         span: "I develop front-end with clean code",
-        text: "10 Projects",
+        text: "5 Projects",
       },
       aboutme: {
         text01: "Hello! I'm Christian Lazo",
@@ -268,12 +268,12 @@ export const dataPortfolio = {
       card01: {
         title: "Diseño",
         span: "Creo productos digitales con ideas únicas",
-        text: "10 Proyectos",
+        text: "3 Proyectos",
       },
       card02: {
         title: "Front End",
         span: "Desarrollo front-end con código limpio",
-        text: "10 Proyectos",
+        text: "5 Proyectos",
       },
       aboutme: {
         text01: "¡Hola! Soy Christian Lazo",

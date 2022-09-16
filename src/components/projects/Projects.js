@@ -76,7 +76,7 @@ const Projects = () => {
                   >
                     <GiRead className="icon" />
                   </span>
-                  <a
+                  {/* <a
                     className="projects__right__box__a"
                     href={item.linkGithub}
                     target="_blank"
@@ -84,7 +84,7 @@ const Projects = () => {
                   >
                     <FaGithubAlt className="icon" />
                     <span>{language === "english" ? "Code" : "Código"}</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

@@ -39,7 +39,7 @@ const SendEmail = () => {
     <Loader />
   ) : (
     <div
-      className="sendemail container"
+      className="sendemail"
       data-aos="zoom-in"
       data-aos-offset="200"
       data-aos-once="false"

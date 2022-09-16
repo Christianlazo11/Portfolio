@@ -78,7 +78,7 @@ const Home = () => {
         </div>
 
         <div className="banner__info">
-          <p className="banner__info__number">3</p>
+          <p className="banner__info__number">6</p>
           <p className="banner__info__desc">
             {globalData[language].bannerData.experience}
           </p>

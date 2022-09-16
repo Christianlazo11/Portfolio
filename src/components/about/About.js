@@ -58,7 +58,7 @@ const About = () => {
               {globalData[language].aboutData.card02.span}
             </p>
             <p className="card__link">
-              {globalData[language].aboutData.card01.text}
+              {globalData[language].aboutData.card02.text}
             </p>
           </div>
           {/* card */}

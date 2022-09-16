@@ -46,7 +46,7 @@ export const dataSkills = [
   },
   {
     skillName: "MongoDb",
-    img: <Icon icon="logos:mongodb" className="icon_program" />,
+    img: <Icon icon="logos:mongodb-icon" className="icon_program" />,
   },
   {
     skillName: "MySQL",

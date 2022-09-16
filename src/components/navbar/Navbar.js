@@ -58,7 +58,7 @@ const Navbar = () => {
           </div>
           <div className="navbar__github">
             <a
-              href="https://github.com/christianlazo2020"
+              href="https://github.com/Christianlazo11"
               target="_blank"
               rel="noreferrer"
             >
