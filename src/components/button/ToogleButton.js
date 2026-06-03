@@ -4,7 +4,7 @@ import "./tooglebutton.css";
 import useGlobalData from "../../hooks/useGlobalData";
 
 const ToogleButton = () => {
-  const { language, setLanguage, handleTheme } = useGlobalData();
+  const { language, setLanguage } = useGlobalData();
   const handleChange = () => {
     setLanguage(language === "english" ? "spanish" : "english");
   };

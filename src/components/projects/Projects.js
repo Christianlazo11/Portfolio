@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./projects.css";
 
-import { FaGithubAlt, FaWifi } from "react-icons/fa";
+import { FaWifi } from "react-icons/fa";
 import { GiRead } from "react-icons/gi";
 import { icons } from "../../data/icons";
 
